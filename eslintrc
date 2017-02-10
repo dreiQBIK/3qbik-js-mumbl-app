@@ -1,0 +1,14 @@
+{
+    "globals": {
+      // Put things like jQuery, etc
+      "jQuery": true,
+      "$": true
+    },
+    "rules":{
+      "camelcase": 1,
+      "comma-dangle": 2,
+      "quotes": 0,
+      "strict": 0
+    },
+    "parser": "babel-eslint",
+}

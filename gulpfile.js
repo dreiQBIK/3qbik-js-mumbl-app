@@ -1,8 +1,12 @@
+// transpile ES6 to ES2015
+'use strict';
+
 // Include Gulp
 var gulp = require('gulp');
 
 // Include Plugins
-var jshint       = require('gulp-jshint');
+var eslint       = require('gulp-eslint');
+var babel        = require('gulp-babel');
 var sass         = require('gulp-sass');
 var concat       = require('gulp-concat');
 var uglify       = require('gulp-uglify');
@@ -36,8 +40,9 @@ gulp.task('copy-folders', function() {
 gulp.task('lint', function() {
     return gulp
         .src('src/js/*.js')
-        .pipe(jshint())
-        .pipe(jshint.reporter('default'));
+        .pipe(eslint())
+        .pipe(eslint.format())
+        .pipe(babel());
 });
 
 // Concatenate & Minify JS
@@ -45,6 +50,9 @@ gulp.task('scripts', function() {
     return gulp
         .src('src/js/*.js')
         .pipe(concat('main.js'))
+        .pipe(babel({
+            presets: ['es2015']
+        }))
         .pipe(gulp.dest('dist/js'))
         .pipe(rename('main.min.js'))
         .pipe(plumber(errorHandler))
@@ -116,13 +124,13 @@ gulp.task('watch', function() {
     browserSync.init({
       proxy: 'localhost/dreiqbik/mumbl/dist/'
     });
-    gulp.watch('src/js/*.js', ['lint', 'scripts']).on('change', browserSync.reload);
+    gulp.watch('src/js/*.js', ['scripts']).on('change', browserSync.reload);
     gulp.watch('src/scss/**/*.scss', ['sass', 'css']);
     gulp.watch('src/*.html', ['html']).on('change', browserSync.reload);
 });
 
 // Default Tasks
-gulp.task('default', ['lint', 'sass', 'scripts', 'html', 'copy-folders', 'watch']);
+gulp.task('default', ['sass', 'scripts', 'html', 'copy-folders', 'watch']);
 
 // Default Tasks
-gulp.task('build', ['lint', 'sass', 'css', 'scripts', 'htmlmin', 'imagemin', 'copy-folders']);
+gulp.task('build', ['sass', 'css', 'scripts', 'htmlmin', 'imagemin', 'copy-folders']);

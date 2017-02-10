@@ -40,10 +40,16 @@ STYLESHEET: VARIABLES
 		PROJECT
 	==================================== */
 
-	$c1-main:						#2c3e50;
-	$c2-main:						#455F7A;
+	$c1-main:						#3A98AC;
+	$c2-main:						#4CC0D9;
+	$c3-main:						#64CFE6;
 
-	$c1-second:						#fff191;
+	$c1-second:						#933465;
+	$c2-second:						#CD428A;
+	$c3-second:						#E85AA4;
+
+	$c1-third:						#F6FBFE;
+	$c2-third:						#C1D3DD;
 
 
 	/* ====================================
@@ -65,16 +71,17 @@ STYLESHEET: VARIABLES
 
 	$opensans:     'Open Sans', 'Helvetica', 'Arial', sans-serif;
 	$merriweather: 'Merriweather', 'Times New Roman', serif;
+	$lobster: 'Lobster', 'Helvetica Neue', serif;
 
 
 	/* ====================================
 		DECLARATION
 	==================================== */
 
-	$f-base:    $merriweather;
-	$f-heading: $opensans;
-	$f-link:    $opensans;
-	$f-text:    $merriweather;
+	$f-base:    $lobster;
+	$f-heading: $lobster;
+	$f-link:    $lobster;
+	$f-text:    $lobster;
 
 
 /******************************************************************

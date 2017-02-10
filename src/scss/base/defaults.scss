@@ -21,7 +21,7 @@ html {
 
 body {
     font-family: $f-base;
-    background-color: $c1-main;
+    transition: background-color 0.2s;
 }
 
 *,

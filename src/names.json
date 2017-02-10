@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Jimmy",
+        "sex": "male",
+        "shown": false
+    },
+    {
+        "name": "Johnny",
+        "sex": "male",
+        "shown": false
+    },
+    {
+        "name": "Kurt",
+        "sex": "male",
+        "shown": false
+    },
+    {
+        "name": "Peter",
+        "sex": "male",
+        "shown": false
+    },
+    {
+        "name": "Lisa",
+        "sex": "female",
+        "shown": false
+    },
+    {
+        "name": "Anna",
+        "sex": "female",
+        "shown": false
+    },
+    {
+        "name": "Gerda",
+        "sex": "female",
+        "shown": false
+    },
+    {
+        "name": "Frauke",
+        "sex": "female",
+        "shown": false
+    }
+]
