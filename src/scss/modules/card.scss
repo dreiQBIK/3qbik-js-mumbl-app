@@ -5,7 +5,7 @@ STYLESHEET: CARD
 
 .card {
     color: $c-white;
-    background-color: $c2-main;
+    // background-color: $c2-main;
     text-align: center;
     width: 18em;
     margin: 10em auto 5em;
@@ -17,6 +17,7 @@ STYLESHEET: CARD
 
     @include medium {
         width: 20em;
+        margin-top: 13em;
     }
 
     &:hover {
@@ -31,7 +32,7 @@ STYLESHEET: CARD
         background-position: center center;
 
         &-wrapper {
-            background-color: $c2-main;
+            // background-color: $c2-main;
             transition: all 0.2s;
             width: 100px;
             height: 100px;
@@ -51,18 +52,12 @@ STYLESHEET: CARD
     }
 
     &__icon {
-        background-color: $c3-main;
+        // background-color: $c3-main;
         display: block;
         width: 100%;
         padding: 0.6em 0;
         font-size: 2rem;
         transition: all 0.2s;
-    }
-
-    &__stack {
-        position: absolute;
-        top: 0;
-        left: 0;
     }
 
     &.flip {

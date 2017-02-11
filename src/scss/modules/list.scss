@@ -1,0 +1,59 @@
+/******************************************************************
+STYLESHEET: LIST
+
+******************************************************************/
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+
+    @include medium {
+        top: 13em;
+    }
+
+    &-wrapper {
+        text-align: center;
+        margin: 8em auto 10em;
+    }
+
+    &__heading {
+        color: $c-white;
+        font-size: 3rem;
+        font-weight: 400;
+        margin: 0;
+        display: inline-block;
+        position: relative;
+
+        &-wrapper {
+            margin-bottom: 1em;
+        }
+    }
+
+    &__icon {
+        color: $c-white;
+        display: inline-block;
+        margin-right: 0.25em;
+        position: absolute;
+        left: -1.8em;
+        top: 0;
+        padding: 0 0.4em;
+        border-radius: 50%;
+    }
+
+    &__item {
+        color: $c-white;
+        font-size: 1.7rem;
+        margin: 0.5em;
+        padding: 1em 1.5em;
+        box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
+        transition: all 0.2s;
+        border-radius: 5px;
+        display: inline-block;
+
+        // &:hover {
+        //     box-shadow: 1px 1px 70px rgba(0, 0, 0, 0.2);
+        // }
+    }
+}
