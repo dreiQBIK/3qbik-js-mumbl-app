@@ -7,13 +7,17 @@ STYLESHEET: CARD
     color: $c-white;
     background-color: $c2-main;
     text-align: center;
-    width: 20em;
-    margin: 15em auto 5em;
+    width: 18em;
+    margin: 10em auto 5em;
     padding: 2em 0 3em;
     border-radius: 5px;
     box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
     transition: all 0.2s;
     position: relative;
+
+    @include medium {
+        width: 20em;
+    }
 
     &:hover {
         box-shadow: 1px 1px 70px rgba(0, 0, 0, 0.2);

@@ -10,7 +10,7 @@ JAVASCRIPT: MAIN
 //   .then(blob => blob.json())
 //   .then(data => names.push(...data));
 
-//   console.log(names);
+// console.log(names);
 
 const names = [
     {
@@ -52,6 +52,44 @@ const names = [
         "name": "Frauke",
         "sex": "female",
         "shown": false
+    }
+];
+
+const colors = [
+    {
+        "main": "#273438",
+        "second": "#6AC9DE",
+        "third": "#75DAF0"
+    },
+    {
+        "main": "#2E393C",
+        "second": "#E06DA9",
+        "third": "#F571B6"
+    },
+    {
+        "main": "#2E393C",
+        "second": "#ECE068",
+        "third": "#F3E76B"
+    },
+    {
+        "main": "#2E393C",
+        "second": "#F39B54",
+        "third": "#FCA661"
+    },
+    {
+        "main": "#2E393C",
+        "second": "#BE7BE5",
+        "third": "#C77FF1"
+    },
+    {
+        "main": "#2E393C",
+        "second": "#65D28B",
+        "third": "#76F1A0"
+    },
+    {
+        "main": "#2E393C",
+        "second": "#8DDC6E",
+        "third": "#97EA76"
     }
 ];
 
@@ -107,26 +145,18 @@ function mumblName() {
         const cardLogoWrapper = document.querySelector('.card__logo-wrapper');
         btn = document.querySelector('.btn');
 
+        // random color
+        const randomColor = colors[Math.floor(Math.random() * colors.length)]; // random color as an object
+
         // add flip animation
         card.classList.add('flip');
 
         // CSS color
-        // ... for female names
-        if (randomName.sex === 'female') {
-            body.style.backgroundColor = '#933465';
-            card.style.backgroundColor = '#CD428A';
-            cardLogoWrapper.style.backgroundColor = '#CD428A';
-            cardIcon.style.backgroundColor = '#E85AA4';
-            btn.style.backgroundColor = '#E85AA4';
-
-        // ... for male names
-        } else {
-            body.style.backgroundColor = '#3A98AC';
-            card.style.backgroundColor = '#4CC0D9';
-            cardLogoWrapper.style.backgroundColor = '#4CC0D9';
-            cardIcon.style.backgroundColor = '#64CFE6';
-            btn.style.backgroundColor = '#64CFE6';
-        }
+        body.style.backgroundColor = randomColor.main;
+        card.style.backgroundColor = randomColor.second;
+        cardLogoWrapper.style.backgroundColor = randomColor.second;
+        cardIcon.style.backgroundColor = randomColor.third;
+        btn.style.backgroundColor = randomColor.third;
 
         // remember that this name was already shown
         randomName.shown = true;
