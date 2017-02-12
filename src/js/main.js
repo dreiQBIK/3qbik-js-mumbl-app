@@ -67,13 +67,13 @@ const colors = [
     },
     {
         "main": "#DAD06F",
-        "second": "#ECE068",
-        "third": "#F3E76B"
+        "second": "#ECDF59",
+        "third": "#F4E75B"
     },
     {
         "main": "#DE9459",
-        "second": "#F39B54",
-        "third": "#FCA661"
+        "second": "#F5974C",
+        "third": "#FDA35A"
     },
     {
         "main": "#B27CD1",
@@ -163,7 +163,9 @@ function changeColors() {
     const card = document.querySelector('.card');
     const cardLogoWrapper = document.querySelector('.card__logo-wrapper');
     const cardIcon = document.querySelector('.card__icon');
-    const listItem = document.querySelectorAll('.list__item');
+    const listWrapper = document.querySelector('.list-wrapper');
+    // const listHeadingWrapper = document.querySelector('.list__heading-wrapper');
+    // const listItem = document.querySelectorAll('.list__item');
     // const listIcon = document.querySelector('.list__icon');
     btn = document.querySelector('.btn--mumbl');
     btnLove = document.querySelector('.btn--love');
@@ -176,7 +178,9 @@ function changeColors() {
     card.style.backgroundColor = randomColor.second;
     cardLogoWrapper.style.backgroundColor = randomColor.second;
     cardIcon.style.backgroundColor = randomColor.third;
-    listItem.forEach(el => el.style.backgroundColor = randomColor.second);
+    // listItem.forEach(el => el.style.backgroundColor = randomColor.second);
+    listWrapper.style.backgroundColor = randomColor.second;
+    // listHeadingWrapper.style.backgroundColor = randomColor.first;
     // listIcon.style.backgroundColor = randomColor.third;
     btn.style.backgroundColor = randomColor.second;
     btnLove.style.backgroundColor = randomColor.second;

@@ -22,6 +22,7 @@ html {
 body {
     font-family: $f-base;
     transition: background-color 0.2s;
+    overflow-x: hidden;
 }
 
 *,

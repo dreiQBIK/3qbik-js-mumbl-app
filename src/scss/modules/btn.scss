@@ -33,6 +33,15 @@ STYLESHEET: BTN
         // background-color: $c1-main;
     }
 
+    &--favorites {
+        position: absolute;
+        top: 2em;
+        right: 4.5em;
+        box-shadow: none;
+        box-shadow: inset 1px 1px 25px rgba(0, 0, 0, 0.2);
+        z-index: 10;
+    }
+
     &__icon {
         width: 60%;
         height: 60%;
@@ -44,7 +53,8 @@ STYLESHEET: BTN
         color: $c-white;
         text-align: center;
 
-        &--love {
+        &--love,
+        &--favorites {
             font-size: 4.5rem;
             line-height: 70%;
         }
