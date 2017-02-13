@@ -7,22 +7,18 @@ html {
     font-size: 1em;
     line-height: 1.4;
     box-sizing: border-box;
-
-    @include small {
-    }
+    overflow-x: hidden;
 
     @include medium {
         font-size: 1.1em;
-    }
-
-    @include large {
     }
 }
 
 body {
     font-family: $f-base;
     transition: background-color 0.2s;
-    overflow: hidden;
+    position: relative;
+    overflow-x: hidden;
 }
 
 *,

@@ -8,20 +8,36 @@ STYLESHEET: LIST
     max-height: 660px;
     overflow-y: auto;
     overflow-x: hidden;
-    margin: 0;
+    margin: 2em 0 1em;
     padding: 0;
     font-size: 3rem;
 
+    @include medium {
+        margin: 0;
+    }
+
     &-wrapper {
         position: absolute;
-        top: 11em;
+        top: 0;
         right: 0;
-        width: 300px;
+        width: 100%;
+        height: 100vh;
         padding: 1.5em 0;
         box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
         transition: all 0.2s;
         transform: translateX(150%);
         border-radius: 5px 0 0 5px;
+        z-index: 15;
+
+        @include medium {
+            top: 11em;
+            width: 300px;
+            height: auto;
+        }
+
+        &:hover {
+            box-shadow: 1px 1px 70px rgba(0, 0, 0, 0.2);
+        }
 
         &.active {
             transform: translateX(0);

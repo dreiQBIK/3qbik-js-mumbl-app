@@ -6,8 +6,8 @@ STYLESHEET: CARD
 .card {
     color: $c-white;
     text-align: center;
-    width: 18em;
-    margin: 10em auto 5em;
+    width: 17em;
+    margin: 0 auto 2em;
     border-radius: 5px;
     box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
     transition: all 0.2s;
@@ -15,7 +15,7 @@ STYLESHEET: CARD
 
     @include medium {
         width: 20em;
-        margin-top: 13em;
+        margin: 0 auto 4em;
     }
 
     &:hover {
@@ -45,8 +45,12 @@ STYLESHEET: CARD
     }
 
     &__inner {
-        padding: 2em 0 3em;
+        padding: 2em 0;
         transition: all 0.2s;
+
+        @include medium {
+            padding-bottom: 3em;
+        }
     }
 
     &__logo {
@@ -71,17 +75,28 @@ STYLESHEET: CARD
     }
 
     &__heading {
-        padding: 0.5em 0;
-        font-size: 3rem;
+        padding: 0.5em;
+        margin: 0.6em 0;
+        font-size: 2.5rem;
         font-weight: 400;
+
+        @include medium {
+            margin: 1em 0;
+            font-size: 3rem;
+        }
     }
 
     &__icon {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         display: inline-block;
         background-position: center center;
         background-size: cover;
+
+        @include medium {
+            width: 40px;
+            height: 40px;
+        }
 
         &-wrapper {
             display: block;
@@ -91,15 +106,18 @@ STYLESHEET: CARD
         }
     }
 
-    &.flip {
-        animation: flip 0.3s cubic-bezier(0, 1.11, 1, 1);
-    }
+    @include medium {
 
-    &.rotate {
-        animation: rotate 0.3s cubic-bezier(0, 1.11, 1, 1);
-    }
+        &.flip {
+            animation: flip 0.3s cubic-bezier(0, 1.11, 1, 1);
+        }
 
-    &.discard {
-        animation: discard 0.3s cubic-bezier(0, 1.11, 1, 1);
+        &.rotate {
+            animation: rotate 0.3s cubic-bezier(0, 1.11, 1, 1);
+        }
+
+        &.discard {
+            animation: discard 0.3s cubic-bezier(0, 1.11, 1, 1);
+        }
     }
 }
