@@ -3,7 +3,7 @@ STYLESHEET: ANIMATIONS
 
 ******************************************************************/
 
-@keyframes flip {
+@keyframes discard {
     0% {
         transform: scale(1);
     }
@@ -12,6 +12,29 @@ STYLESHEET: ANIMATIONS
     }
     100% {
         transform: scale(1);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: scale(1) rotate(0) translateX(0);
+    }
+    70% {
+        transform: scale(1.2) rotate(-15deg) translateX(-100px);
+    }
+    100% {
+        transform: scale(1) rotate(0) translateX(0);
+    }
+}
+
+@keyframes flip {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
     }
 }
 

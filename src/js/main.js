@@ -47,6 +47,36 @@ const names = [
         "loved": false
     },
     {
+        "name": "Horst",
+        "sex": "male",
+        "shown": false,
+        "loved": false
+    },
+    {
+        "name": "Seppl",
+        "sex": "male",
+        "shown": false,
+        "loved": false
+    },
+    {
+        "name": "Manfredo",
+        "sex": "male",
+        "shown": false,
+        "loved": false
+    },
+    {
+        "name": "Herbert",
+        "sex": "male",
+        "shown": false,
+        "loved": false
+    },
+    {
+        "name": "Ursula",
+        "sex": "female",
+        "shown": false,
+        "loved": false
+    },
+    {
         "name": "Frauke",
         "sex": "female",
         "shown": false,
@@ -113,14 +143,19 @@ mumblName();
 let btn = document.querySelector('.btn--mumbl');
 btn.addEventListener('click', mumblName);
 btn.addEventListener('click', animateButton);
+btn.addEventListener('click', animateCard);
 
 // get currentName
 let currentName = names[names.findIndex(el => el.shown)];
+
+// new array for favorites
+let favoriteNames = [];
 
 // listen on click on love btn
 let btnLove = document.querySelector('.btn--love');
 btnLove.addEventListener('click', loveName);
 btnLove.addEventListener('click', animateButton);
+btnLove.addEventListener('click', animateCard);
 
 // listen on click on delete btn
 // let btnDelete = document.querySelectorAll('.btn--delete');
@@ -147,7 +182,7 @@ function resetStatus() {
         }
     });
 
-    // finish mumbl and change btn color
+    // finish mumbl
     if (allLoved === true) {
         return;
     }
@@ -161,37 +196,57 @@ function changeColors() {
     // CSS changes
     const body = document.querySelector('body');
     const card = document.querySelector('.card');
+    const cardInner = document.querySelector('.card__inner');
     const cardLogoWrapper = document.querySelector('.card__logo-wrapper');
-    const cardIcon = document.querySelector('.card__icon');
+    const cardIconWrapper = document.querySelector('.card__icon-wrapper');
     const listWrapper = document.querySelector('.list-wrapper');
     // const listHeadingWrapper = document.querySelector('.list__heading-wrapper');
-    // const listItem = document.querySelectorAll('.list__item');
+    const listItem = document.querySelectorAll('.list__item');
     // const listIcon = document.querySelector('.list__icon');
     btn = document.querySelector('.btn--mumbl');
     btnLove = document.querySelector('.btn--love');
+    const btnFavorites = document.querySelector('.btn--favorites');
 
     // random color
     const randomColor = colors[Math.floor(Math.random() * colors.length)]; // random color as an object
 
     // CSS color
     body.style.backgroundColor = randomColor.main;
-    card.style.backgroundColor = randomColor.second;
+    cardInner.style.backgroundColor = randomColor.second;
     cardLogoWrapper.style.backgroundColor = randomColor.second;
-    cardIcon.style.backgroundColor = randomColor.third;
-    // listItem.forEach(el => el.style.backgroundColor = randomColor.second);
+    cardIconWrapper.style.backgroundColor = randomColor.third;
+    // listItem.forEach(el => el.style.color = randomColor.second);
     listWrapper.style.backgroundColor = randomColor.second;
     // listHeadingWrapper.style.backgroundColor = randomColor.first;
     // listIcon.style.backgroundColor = randomColor.third;
     btn.style.backgroundColor = randomColor.second;
     btnLove.style.backgroundColor = randomColor.second;
+    btnFavorites.style.backgroundColor = randomColor.main;
+}
+
+function animateCard(e) {
+
+    // get target (love btn or discard btn)
+    const clickedBtn = e.currentTarget;
 
     // add animations
-    card.classList.add('flip');
+    const card = document.querySelector('.card');
+    if (clickedBtn.getAttribute('data-btn') === 'mumbl') {
+        card.classList.add('discard');
 
-    // remove animations
-    setTimeout(function(){
-        card.classList.remove('flip');
-    }, 300);
+        // remove animations
+        setTimeout(function(){
+            card.classList.remove('discard');
+        }, 300);
+
+    } else if (clickedBtn.getAttribute('data-btn') === 'love') {
+        card.classList.add('flip');
+
+        // remove animations
+        setTimeout(function(){
+            card.classList.remove('flip');
+        }, 300);
+    }
 }
 
 function animateButton(e) {
@@ -221,7 +276,7 @@ function mumblName() {
 
         // change HTML of sex icon
         const cardIcon = document.querySelector('.card__icon');
-        cardIcon.innerHTML = (randomName.sex === 'male') ? '&#9794;' : '&#9792;';
+        cardIcon.style.backgroundImage = (randomName.sex === 'male') ? 'url(img/icon-male.svg)' : 'url(img/icon-female.svg)';
 
         // change colors and add animation
         changeColors();
@@ -255,6 +310,9 @@ function loveName() {
     // check if name is not already marked as loved
     if (currentName.loved) return;
 
+    // push to favorites array
+    favoriteNames.push(currentName);
+
     // mark name as loved
     currentName.loved = true;
 
@@ -279,6 +337,10 @@ function loveName() {
     // newDeleteButton.appendChild(newDeleteIcon);
 
     list.appendChild(newListItem);
+
+    // get rid of placeholder
+    const favoritesPlaceholder = document.querySelector('.list__item[data-role="placeholder"]');
+    if (favoritesPlaceholder !== null) list.removeChild(favoritesPlaceholder);
 
     // mumbl next name
     mumblName();

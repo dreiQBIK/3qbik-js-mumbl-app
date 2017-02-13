@@ -5,11 +5,9 @@ STYLESHEET: CARD
 
 .card {
     color: $c-white;
-    // background-color: $c2-main;
     text-align: center;
     width: 18em;
     margin: 10em auto 5em;
-    padding: 2em 0 3em;
     border-radius: 5px;
     box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
     transition: all 0.2s;
@@ -22,6 +20,33 @@ STYLESHEET: CARD
 
     &:hover {
         box-shadow: 1px 1px 70px rgba(0, 0, 0, 0.2);
+
+        &:before {
+            box-shadow: 1px 1px 70px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    &:before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        padding: 1em;
+        border-radius: 50%;
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        margin-left: -50px;
+        background-color: transparent;
+        box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
+        transition: all 0.2s;
+        z-index: -1;
+    }
+
+    &__inner {
+        padding: 2em 0 3em;
+        transition: all 0.2s;
     }
 
     &__logo {
@@ -32,7 +57,6 @@ STYLESHEET: CARD
         background-position: center center;
 
         &-wrapper {
-            // background-color: $c2-main;
             transition: all 0.2s;
             width: 100px;
             height: 100px;
@@ -42,6 +66,7 @@ STYLESHEET: CARD
             top: -50px;
             left: 50%;
             margin-left: -50px;
+            z-index: 10;
         }
     }
 
@@ -52,15 +77,29 @@ STYLESHEET: CARD
     }
 
     &__icon {
-        // background-color: $c3-main;
-        display: block;
-        width: 100%;
-        padding: 0.6em 0;
-        font-size: 2rem;
-        transition: all 0.2s;
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        background-position: center center;
+        background-size: cover;
+
+        &-wrapper {
+            display: block;
+            width: 100%;
+            padding: 1.1em 0;
+            transition: all 0.2s;
+        }
     }
 
     &.flip {
         animation: flip 0.3s cubic-bezier(0, 1.11, 1, 1);
+    }
+
+    &.rotate {
+        animation: rotate 0.3s cubic-bezier(0, 1.11, 1, 1);
+    }
+
+    &.discard {
+        animation: discard 0.3s cubic-bezier(0, 1.11, 1, 1);
     }
 }

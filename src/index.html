@@ -22,25 +22,30 @@
 
         <main class="content">
             <div class="card">
-                <div class="card__logo-wrapper">
-                    <img src="img/mumbl-logo.svg" alt="" class="card__logo">
+                <div class="card__inner">
+                    <div class="card__logo-wrapper">
+                        <img src="img/mumbl-logo.svg" alt="" class="card__logo">
+                    </div>
+                    <h3 class="card__heading"></h3>
+                    <div class="card__icon-wrapper">
+                        <span class="card__icon"></span>
+                    </div>
                 </div>
-                <h3 class="card__heading"></h3>
-                <span class="card__icon"></span>
             </div>
             <div class="btn-wrapper">
-                <a href="#" class="btn btn--mumbl">
-                    <span class="btn__icon btn__icon--x">&#215;</span>
+                <a href="#" class="btn btn--mumbl" data-btn="mumbl">
+                    <span class="btn__icon btn__icon--x"></span>
                 </a>
-                <a href="#" class="btn btn--love">
-                    <span class="btn__icon btn__icon--love">&#9829;</span>
+                <a href="#" class="btn btn--love" data-btn="love">
+                    <span class="btn__icon btn__icon--love"></span>
                 </a>
             </div>
             <a href="#" class="btn btn--favorites">
-                <span class="btn__icon btn__icon--favorites list__heading">&#9829;</span>
+                <span class="btn__icon btn__icon--favorites list__heading"></span>
             </a>
             <div class="list-wrapper">
                 <ul class="list">
+                    <li class="list__item" data-role="placeholder">Du hast noch keinen Namen als Favoriten markiert :(</li>
                 </ul>
             </div>
         </main>

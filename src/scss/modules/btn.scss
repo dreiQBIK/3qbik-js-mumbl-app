@@ -53,15 +53,28 @@ STYLESHEET: BTN
         color: $c-white;
         text-align: center;
 
-        &--love,
-        &--favorites {
+        &--love {
             font-size: 4.5rem;
             line-height: 70%;
+            background-image: url('../img/icon-love.svg');
+            background-position: center center;
+            background-size: cover;
         }
 
         &--x {
             font-size: 7.5rem;
             line-height: 40%;
+            background-image: url('../img/icon-x.svg');
+            background-position: center center;
+            background-size: cover;
+        }
+
+        &--favorites {
+            font-size: 4.5rem;
+            line-height: 70%;
+            background-image: url('../img/icon-love.svg');
+            background-position: center center;
+            background-size: cover;
         }
     }
 
