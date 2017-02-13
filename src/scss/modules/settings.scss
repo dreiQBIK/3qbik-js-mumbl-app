@@ -1,0 +1,61 @@
+/******************************************************************
+STYLESHEET: SETTINGS
+
+******************************************************************/
+
+.settings {
+    color: $c-white;
+    max-height: 660px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 5.5em 0 1em;
+    padding: 0 2em 1.5em;
+
+    @include small {
+        margin: 0;
+    }
+
+    &-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        padding: 1.5em 0;
+        border-radius: 0 5px 5px 0;
+        box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
+        transition: all 0.2s;
+        transform: translateX(-150%);
+        z-index: 15;
+
+        @include small {
+            top: 11em;
+            width: 300px;
+            height: auto;
+        }
+
+        &:hover {
+            box-shadow: 1px 1px 70px rgba(0, 0, 0, 0.2);
+        }
+
+        &.active {
+            transform: translateX(0);
+        }
+    }
+
+    &__heading {
+
+    }
+
+    &__block {
+        padding: 0.7em 0;
+
+        &--gender {
+
+        }
+    }
+
+    &__input {
+        // display: block;
+    }
+}

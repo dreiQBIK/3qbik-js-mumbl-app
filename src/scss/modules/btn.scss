@@ -50,6 +50,24 @@ STYLESHEET: BTN
         }
     }
 
+    &--settings {
+        position: absolute;
+        top: 1em;
+        left: 0.5em;
+        box-shadow: none;
+        box-shadow: inset 1px 1px 25px rgba(0, 0, 0, 0.2);
+        z-index: 20;
+
+        @include medium {
+            top: 2em;
+            left: 4.5em;
+
+            &:hover {
+                box-shadow: inset 1px 1px 40px rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+
     &__icon {
         width: 60%;
         height: 60%;
@@ -75,6 +93,12 @@ STYLESHEET: BTN
 
         &--favorites {
             background-image: url('../img/icon-love.svg');
+            background-position: center center;
+            background-size: cover;
+        }
+
+        &--settings {
+            background-image: url('../img/icon-settings.svg');
             background-position: center center;
             background-size: cover;
         }

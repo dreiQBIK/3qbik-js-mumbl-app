@@ -21,6 +21,31 @@
         <![endif]-->
 
         <main class="content">
+
+            <!-- Settings -->
+            <a href="#" class="btn btn--settings">
+                <span class="btn__icon btn__icon--settings"></span>
+            </a>
+            <div class="settings-wrapper">
+                <form class="settings">
+                    <h2 class="settings__heading">Einstellungen</h2>
+                    <div class="settings__block settings__block--gender">
+                        <h3 class="settings_sub-heading">Geschlecht filtern:</h3>
+                        <div>
+                            <input id="input-male" type="checkbox" class="settings__input">
+                            <label for="input-male" class="settings__label">Männliche Namen</label>
+                        </div>
+                        <div>
+                            <input id="input-female" type="checkbox" class="settings__input" name="input-female">
+                            <label for="input-female" class="settings__label">Weibliche Namen</label>
+                        </div>
+                    </div>
+                    <input type="submit" class="submit" value="Speichern">
+                </form>
+
+            </div>
+
+            <!-- Card -->
             <div class="card">
                 <div class="card__inner">
                     <div class="card__logo-wrapper">
@@ -32,6 +57,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Buttons -->
             <div class="btn-wrapper">
                 <a href="#" class="btn btn--mumbl" data-btn="mumbl">
                     <span class="btn__icon btn__icon--x"></span>
@@ -40,14 +67,17 @@
                     <span class="btn__icon btn__icon--love"></span>
                 </a>
             </div>
+
+            <!-- Favorites -->
             <a href="#" class="btn btn--favorites">
-                <span class="btn__icon btn__icon--favorites list__heading"></span>
+                <span class="btn__icon btn__icon--favorites"></span>
             </a>
             <div class="list-wrapper">
                 <ul class="list">
-                    <li class="list__item" data-role="placeholder">Du hast noch keinen Namen als Favoriten markiert...</li>
+                    <li class="list__item" data-role="placeholder">Du hast noch keine Namen als Favoriten markiert...</li>
                 </ul>
             </div>
+
         </main>
 
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->

@@ -6,79 +6,79 @@ JAVASCRIPT: MAIN
 const names = [
     {
         "name": "Jimmy",
-        "sex": "male",
+        "gender": "male",
         "shown": false,
         "loved": false
     },
     {
         "name": "Johnny",
-        "sex": "male",
+        "gender": "male",
         "shown": false,
         "loved": false
     },
     {
         "name": "Kurt",
-        "sex": "male",
+        "gender": "male",
         "shown": false,
         "loved": false
     },
     {
         "name": "Peter",
-        "sex": "male",
+        "gender": "male",
         "shown": false,
         "loved": false
     },
     {
         "name": "Lisa",
-        "sex": "female",
+        "gender": "female",
         "shown": false,
         "loved": false
     },
     {
         "name": "Anna",
-        "sex": "female",
+        "gender": "female",
         "shown": false,
         "loved": false
     },
     {
         "name": "Gerda",
-        "sex": "female",
+        "gender": "female",
         "shown": false,
         "loved": false
     },
     {
         "name": "Horst",
-        "sex": "male",
+        "gender": "male",
         "shown": false,
         "loved": false
     },
     {
         "name": "Seppl",
-        "sex": "male",
+        "gender": "male",
         "shown": false,
         "loved": false
     },
     {
         "name": "Manfredo",
-        "sex": "male",
+        "gender": "male",
         "shown": false,
         "loved": false
     },
     {
         "name": "Herbert",
-        "sex": "male",
+        "gender": "male",
         "shown": false,
         "loved": false
     },
     {
         "name": "Ursula",
-        "sex": "female",
+        "gender": "female",
         "shown": false,
         "loved": false
     },
     {
         "name": "Frauke",
-        "sex": "female",
+        "gender": "female",
         "shown": false,
         "loved": false
     }
@@ -211,6 +211,7 @@ function changeColors() {
     const cardLogoWrapper = document.querySelector('.card__logo-wrapper');
     const cardIconWrapper = document.querySelector('.card__icon-wrapper');
     const listWrapper = document.querySelector('.list-wrapper');
+    const settingsWrapper = document.querySelector('.settings-wrapper');
     const listItem = document.querySelectorAll('.list__item');
     btn = document.querySelector('.btn--mumbl');
     btnLove = document.querySelector('.btn--love');
@@ -225,6 +226,7 @@ function changeColors() {
     cardLogoWrapper.style.backgroundColor = randomColor.second;
     cardIconWrapper.style.backgroundColor = randomColor.third;
     listWrapper.style.backgroundColor = randomColor.second;
+    settingsWrapper.style.backgroundColor = randomColor.second;
     btn.style.backgroundColor = randomColor.second;
     btnLove.style.backgroundColor = randomColor.second;
     btnFavorites.style.backgroundColor = randomColor.main;
@@ -280,9 +282,9 @@ function mumblName() {
         const cardName = document.querySelector('.card__heading');
         cardName.innerHTML = randomName.name;
 
-        // change HTML of sex icon
+        // change HTML of gender icon
         const cardIcon = document.querySelector('.card__icon');
-        cardIcon.style.backgroundImage = (randomName.sex === 'male') ? 'url(img/icon-male.svg)' : 'url(img/icon-female.svg)';
+        cardIcon.style.backgroundImage = (randomName.gender === 'male') ? 'url(img/icon-male.svg)' : 'url(img/icon-female.svg)';
 
         // change colors and add animation
         changeColors();
@@ -334,13 +336,13 @@ function loveName() {
     newListItem.appendChild(newListItemText);
     list.appendChild(newListItem);
 
-    // create and append sex icon
-    const newSexIcon = document.createElement('span');
-    newSexIcon.className = 'list__item__icon btn--delete';
-    newSexIcon.style.backgroundImage = (currentName.sex === 'male') ? 'url(img/icon-male.svg)' : 'url(img/icon-female.svg)';
-    newListItem.appendChild(newSexIcon);
+    // create and append gender icon
+    const newGenderIcon = document.createElement('span');
+    newGenderIcon.className = 'list__item__icon btn--delete';
+    newGenderIcon.style.backgroundImage = (currentName.gender === 'male') ? 'url(img/icon-male.svg)' : 'url(img/icon-female.svg)';
+    newListItem.appendChild(newGenderIcon);
 
-    // create and append sex icon
+    // create and append gender icon
     const newShareIcon = document.createElement('span');
     newShareIcon.className = 'list__item__icon btn--share';
     newShareIcon.style.backgroundImage = 'url(img/icon-love.svg)';
