@@ -86,33 +86,43 @@ const names = [
 
 const colors = [
     {
-        "main": "#66B2C3",
-        "second": "#6AC9DE",
-        "third": "#75DAF0"
+        "main": "#55ADC1",
+        "second": "#61D0E8",
+        "third": "#6ADCF5"
     },
     {
-        "main": "#CA6C9D",
-        "second": "#E06DA9",
-        "third": "#F571B6"
+        "main": "#6298D4",
+        "second": "#67A5EA",
+        "third": "#72B2F9"
     },
     {
-        "main": "#DAD06F",
+        "main": "#CB659A",
+        "second": "#E167A7",
+        "third": "#F66BB4"
+    },
+    {
+        "main": "#D7CC5C",
         "second": "#ECDF59",
         "third": "#F4E75B"
     },
     {
-        "main": "#DE9459",
+        "main": "#E29150",
         "second": "#F5974C",
         "third": "#FDA35A"
     },
     {
-        "main": "#B27CD1",
-        "second": "#BE7BE5",
-        "third": "#C77FF1"
+        "main": "#A465C9",
+        "second": "#B970E4",
+        "third": "#C673F6"
     },
     {
-        "main": "#6BC48A",
-        "second": "#65D28B",
+        "main": "#D35555",
+        "second": "#E95151",
+        "third": "#FA6060"
+    },
+    {
+        "main": "#5FC081",
+        "second": "#61DB8C",
         "third": "#76F1A0"
     },
     {
@@ -157,9 +167,10 @@ btnLove.addEventListener('click', loveName);
 btnLove.addEventListener('click', animateButton);
 btnLove.addEventListener('click', animateCard);
 
-// listen on click on delete btn
-// let btnDelete = document.querySelectorAll('.btn--delete');
-// btnDelete.forEach(el => el.addEventListener('click', deleteName));
+// listen on click on delete favorite name btn
+let list = document.querySelector('.list');
+let btnDelete = document.querySelector('.btn--delete');
+list.addEventListener('click', deleteName);
 
 
 
@@ -263,8 +274,8 @@ function animateButton(e) {
 
 function mumblName() {
 
-    // get random name
-    const randomName = names[Math.floor(Math.random() * names.length)]; // random name as an object
+    // get random name as an object
+    const randomName = names[Math.floor(Math.random() * names.length)];
 
     // check if name was already shown
     // to prevent that the same name is shown multiple times
@@ -310,52 +321,75 @@ function loveName() {
     // check if name is not already marked as loved
     if (currentName.loved) return;
 
-    // push to favorites array
-    favoriteNames.push(currentName);
-
     // mark name as loved
     currentName.loved = true;
 
-    // save name to loved list
-    const list = document.querySelector('.list');
-    const newListItem = document.createElement('li');
-    // const newDeleteButton = document.createElement('a');
-    // const newDeleteIcon = document.createElement('span');
-    // const newDeleteIconText = document.createTextNode('x');
-    const newListItemText = document.createTextNode(`${currentName.name}`);
+    // push to favorites array
+    favoriteNames.push(currentName);
 
+    // save name to loved list
+    list = document.querySelector('.list');
+
+    // create and append list item
+    const newListItem = document.createElement('li');
+    const newListItemText = document.createTextNode(`${currentName.name}`);
     newListItem.className = 'list__item';
     newListItem.setAttribute('data-name', `${currentName.name}`);
+    newListItem.setAttribute('data-role', 'favorite');
     newListItem.appendChild(newListItemText);
-
-    // newDeleteButton.className = 'btn btn--delete';
-    // newDeleteButton.setAttribute('href', '#');
-    // newDeleteIcon.className = 'btn__icon btn__icon--x';
-    // newDeleteIcon.appendChild(newDeleteIconText);
-
-    // newListItem.appendChild(newDeleteButton);
-    // newDeleteButton.appendChild(newDeleteIcon);
-
     list.appendChild(newListItem);
+
+    // create and append sex icon
+    const newSexIcon = document.createElement('span');
+    newSexIcon.className = 'list__item__icon btn--delete';
+    newSexIcon.style.backgroundImage = (currentName.sex === 'male') ? 'url(img/icon-male.svg)' : 'url(img/icon-female.svg)';
+    newListItem.appendChild(newSexIcon);
+
+    // create and append sex icon
+    const newShareIcon = document.createElement('span');
+    newShareIcon.className = 'list__item__icon btn--share';
+    newShareIcon.style.backgroundImage = 'url(img/icon-love.svg)';
+    newListItem.appendChild(newShareIcon);
 
     // get rid of placeholder
     const favoritesPlaceholder = document.querySelector('.list__item[data-role="placeholder"]');
-    if (favoritesPlaceholder !== null) list.removeChild(favoritesPlaceholder);
+    if (!(favoritesPlaceholder.style.display === 'none')) favoritesPlaceholder.style.display = 'none';
 
     // mumbl next name
     mumblName();
 }
 
-// function deleteName(e) {
+function deleteName(e) {
 
-//     // find out which name was clicked
-//     const deletedElement = e.currentTarget.parentElement.getAttribute('data-name');
-//     const deletedName = names.filter(el => el.name === deletedElement);
+    // get the clicked element
+    const clickedElement = e.target;
 
-//     // change loved status back to false
-//     deletedName.loved = false;
+    // leave if the target is not a name (e.g. no names have been added to the favorites list yet)
+    if (!clickedElement.matches('.btn--delete')) return;
 
-//     // delete name from favorites list
-//     const list = document.querySelector('.list');
-//     list.removeChild(deletedElement);
-// }
+    // find out which name was clicked
+    const deletedElement = clickedElement.parentElement;
+    const deletedElementName = deletedElement.getAttribute('data-name');
+    const deletedName = names.filter(el => el.name === deletedElementName);
+
+    // change loved status back to false
+    deletedName[0].loved = false;
+
+    // remove from favorites array
+    favoriteNames.pop(currentName);
+
+    // delete name from favorites list
+    list = document.querySelector('.list');
+    deletedElement.classList.add('fade-out');
+
+    // remove animations
+    setTimeout(function(){
+        list.removeChild(deletedElement);
+
+        // if favorites list is empty, add placeholder
+        const favoritesPlaceholder = document.querySelector('.list__item[data-role="placeholder"]');
+        if (!favoriteNames.length && favoritesPlaceholder.style.display === 'none') {
+            favoritesPlaceholder.style.display = 'block';
+        }
+    }, 300);
+}

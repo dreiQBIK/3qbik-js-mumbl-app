@@ -7,12 +7,12 @@ STYLESHEET: LIST
     list-style-type: none;
     max-height: 660px;
     overflow-y: auto;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     font-size: 3rem;
 
     &-wrapper {
-        text-align: center;
         position: absolute;
         top: 11em;
         right: 0;
@@ -58,6 +58,53 @@ STYLESHEET: LIST
         font-size: 1.2rem;
         font-weight: 700;
         margin: 0;
-        padding: 0.7em 1.5em;
+        padding: 0.7em 3.6em 0.7em 2em;
+        position: relative;
+        transition: all 0.2s;
+
+        &[data-role="favorite"]:hover {
+
+            .list__item__icon {
+                cursor: pointer;
+                // top: 0.65em;
+                // right: 1.3em;
+                // width: 32px;
+                // height: 32px;
+                background-image: url('../img/icon-x.svg') !important;
+
+                // &.btn--share {
+                //     display: block;
+                //     background-image: url('../img/icon-love.svg') !important;
+                // }
+            }
+        }
+
+        &[data-role="placeholder"] {
+            padding-right: 1.5em;
+        }
+
+        &.fade-out {
+            animation: fade-out 0.3s cubic-bezier(0, 1.11, 1, 1);
+        }
+
+        &__icon {
+            display: inline-block;
+            margin-right: 0.25em;
+            position: absolute;
+            top: 0.7em;
+            width: 30px;
+            height: 30px;
+            background-position: center center;
+            background-size: cover;
+
+            &.btn--delete {
+                right: 1.5em;
+            }
+
+            &.btn--share {
+                display: none;
+                right: 3.2em;
+            }
+        }
     }
 }
