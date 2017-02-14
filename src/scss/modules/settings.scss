@@ -43,19 +43,78 @@ STYLESHEET: SETTINGS
         }
     }
 
-    &__heading {
-
+    &__sub-heading {
+        margin-top: 0;
     }
 
     &__block {
         padding: 0.7em 0;
 
-        &--gender {
-
+        &--inner {
+            position: relative;
+            margin: 0.7em 0;
         }
     }
 
     &__input {
-        // display: block;
+        opacity: 0;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        &:checked+.settings__label:after {
+            content: "\02713";
+            display: inline-block;
+            position: absolute;
+            top: 0.05em;
+            left: -1.65em;
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: $c-white;
+        }
+
+        &:checked+.settings__label:before {
+            opacity: 0.3;
+        }
+    }
+
+    &__label {
+        margin-left: 1.7em;
+        position: relative;
+
+        &:before {
+            content: "";
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 0;
+            left: -1.7em;
+            background-color: $c-white;
+            border-radius: 2px;
+        }
+    }
+
+    &__submit {
+        margin-top: 1em;
+        padding: 0.7em 1.3em;
+        border: none;
+        border-radius: 2px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+        transition: all 0.2s;
+        font-weight: 700;
+
+        &:focus {
+            outline: 0;
+        }
+
+        @include medium {
+
+            &:hover {
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+            }
+        }
     }
 }

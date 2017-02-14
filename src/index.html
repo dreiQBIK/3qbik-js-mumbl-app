@@ -30,17 +30,17 @@
                 <form class="settings">
                     <h2 class="settings__heading">Einstellungen</h2>
                     <div class="settings__block settings__block--gender">
-                        <h3 class="settings_sub-heading">Geschlecht filtern:</h3>
-                        <div>
-                            <input id="input-male" type="checkbox" class="settings__input">
+                        <h3 class="settings__sub-heading">Geschlecht filtern:</h3>
+                        <div class="settings__block--inner">
+                            <input id="input-male" type="checkbox" class="settings__input" checked>
                             <label for="input-male" class="settings__label">Männliche Namen</label>
                         </div>
-                        <div>
-                            <input id="input-female" type="checkbox" class="settings__input" name="input-female">
+                        <div class="settings__block--inner">
+                            <input id="input-female" type="checkbox" class="settings__input" checked>
                             <label for="input-female" class="settings__label">Weibliche Namen</label>
                         </div>
                     </div>
-                    <input type="submit" class="submit" value="Speichern">
+                    <input type="submit" class="settings__submit" value="Speichern">
                 </form>
 
             </div>

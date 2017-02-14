@@ -146,6 +146,14 @@ const colors = [
     ON LOAD
 ************************************************************************/
 
+
+// variable for filtered names array (when settings are saved, it gets altered)
+let filteredNames = names;
+
+// listen on submit button of settings
+const btnSubmit = document.querySelector('.settings');
+btnSubmit.addEventListener('submit', saveSettings);
+
 // mumbl name on load
 mumblName();
 
@@ -155,22 +163,34 @@ btn.addEventListener('click', mumblName);
 btn.addEventListener('click', animateButton);
 btn.addEventListener('click', animateCard);
 
-// get currentName
-let currentName = names[names.findIndex(el => el.shown)];
-
-// new array for favorites
-let favoriteNames = [];
-
 // listen on click on love btn
 let btnLove = document.querySelector('.btn--love');
 btnLove.addEventListener('click', loveName);
 btnLove.addEventListener('click', animateButton);
 btnLove.addEventListener('click', animateCard);
 
+// show and hide settings nav
+let btnFavorites = document.querySelector('.btn--favorites');
+btnFavorites.addEventListener('click', showFavorites);
+
+// show and hide settings nav
+let btnSettings = document.querySelector('.btn--settings');
+btnSettings.addEventListener('click', showSettings);
+
+// listen on click on favorites and settings btn
+btnSettings.addEventListener('click', animateButton);
+btnFavorites.addEventListener('click', animateButton);
+
 // listen on click on delete favorite name btn
 let list = document.querySelector('.list');
 let btnDelete = document.querySelector('.btn--delete');
 list.addEventListener('click', deleteName);
+
+// get currentName
+let currentName = names[names.findIndex(el => el.shown)];
+
+// new array for favorites
+let favoriteNames = [];
 
 
 
@@ -181,13 +201,13 @@ list.addEventListener('click', deleteName);
 function resetStatus() {
 
     // reset status
-    names.forEach(function(el) {
+    filteredNames.forEach(function(el) {
         if (el.loved) return;
         el.shown = false;
     });
 
     // check if all names have already been loved
-    const allLoved = names.every(function(el) {
+    const allLoved = filteredNames.every(function(el) {
         if (el.loved === true) {
             return true;
         }
@@ -215,7 +235,9 @@ function changeColors() {
     const listItem = document.querySelectorAll('.list__item');
     btn = document.querySelector('.btn--mumbl');
     btnLove = document.querySelector('.btn--love');
-    const btnFavorites = document.querySelector('.btn--favorites');
+    btnSettings = document.querySelector('.btn--settings');
+    btnFavorites = document.querySelector('.btn--favorites');
+    const btnSubmit = document.querySelector('.settings__submit');
 
     // random color
     const randomColor = colors[Math.floor(Math.random() * colors.length)]; // random color as an object
@@ -229,7 +251,9 @@ function changeColors() {
     settingsWrapper.style.backgroundColor = randomColor.second;
     btn.style.backgroundColor = randomColor.second;
     btnLove.style.backgroundColor = randomColor.second;
-    btnFavorites.style.backgroundColor = randomColor.main;
+    btnSettings.style.backgroundColor = randomColor.second;
+    btnFavorites.style.backgroundColor = randomColor.second;
+    btnSubmit.style.backgroundColor = randomColor.third;
 }
 
 function animateCard(e) {
@@ -269,10 +293,54 @@ function animateButton(e) {
     }, 300);
 }
 
+function saveSettings(e) {
+
+    // prevent page from reloading and submitting the form
+    e.preventDefault();
+
+    const maleCheckbox = document.querySelector('#input-male');
+    const femaleCheckbox = document.querySelector('#input-female');
+
+    // check for both checkboxes
+    if (maleCheckbox.checked && femaleCheckbox.checked) {
+        filteredNames = names;
+
+    // check male only
+    } else if (maleCheckbox.checked && !femaleCheckbox.checked) {
+        filteredNames = names.filter(el => el.gender === 'male');
+
+    // check female only
+    } else if (!maleCheckbox.checked && femaleCheckbox.checked) {
+        filteredNames = names.filter(el => el.gender === 'female');
+
+    // check none, which sets both to true
+    } else {
+        maleCheckbox.checked = true;
+        femaleCheckbox.checked = true;
+        filteredNames = names;
+    }
+
+    // close settings
+    showSettings();
+
+    // mumbl a new filtered name
+    mumblName();
+}
+
+function showSettings() {
+    const settingsWrapper = document.querySelector('.settings-wrapper');
+    settingsWrapper.classList.toggle('active');
+}
+
+function showFavorites() {
+    const listWrapper = document.querySelector('.list-wrapper');
+    listWrapper.classList.toggle('active');
+}
+
 function mumblName() {
 
     // get random name as an object
-    const randomName = names[Math.floor(Math.random() * names.length)];
+    const randomName = filteredNames[Math.floor(Math.random() * filteredNames.length)];
 
     // check if name was already shown
     // to prevent that the same name is shown multiple times
@@ -298,7 +366,7 @@ function mumblName() {
     } else {
 
         // check if all names have already been shown
-        const allShown = names.every(function(el) {
+        const allShown = filteredNames.every(function(el) {
             if (el.shown === true) {
                 return true;
             }
@@ -343,10 +411,10 @@ function loveName() {
     newListItem.appendChild(newGenderIcon);
 
     // create and append gender icon
-    const newShareIcon = document.createElement('span');
-    newShareIcon.className = 'list__item__icon btn--share';
-    newShareIcon.style.backgroundImage = 'url(img/icon-love.svg)';
-    newListItem.appendChild(newShareIcon);
+    // const newShareIcon = document.createElement('span');
+    // newShareIcon.className = 'list__item__icon btn--share';
+    // newShareIcon.style.backgroundImage = 'url(img/icon-love.svg)';
+    // newListItem.appendChild(newShareIcon);
 
     // get rid of placeholder
     const favoritesPlaceholder = document.querySelector('.list__item[data-role="placeholder"]');

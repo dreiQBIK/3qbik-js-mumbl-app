@@ -37,7 +37,7 @@ STYLESHEET: BTN
         top: 1em;
         right: 0.5em;
         box-shadow: none;
-        box-shadow: inset 1px 1px 25px rgba(0, 0, 0, 0.2);
+        box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
         z-index: 20;
 
         @include medium {
@@ -45,7 +45,7 @@ STYLESHEET: BTN
             right: 4.5em;
 
             &:hover {
-                box-shadow: inset 1px 1px 40px rgba(0, 0, 0, 0.2);
+                box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.2);
             }
         }
     }
@@ -55,7 +55,7 @@ STYLESHEET: BTN
         top: 1em;
         left: 0.5em;
         box-shadow: none;
-        box-shadow: inset 1px 1px 25px rgba(0, 0, 0, 0.2);
+        box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
         z-index: 20;
 
         @include medium {
@@ -63,7 +63,7 @@ STYLESHEET: BTN
             left: 4.5em;
 
             &:hover {
-                box-shadow: inset 1px 1px 40px rgba(0, 0, 0, 0.2);
+                box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.2);
             }
         }
     }
@@ -92,7 +92,7 @@ STYLESHEET: BTN
         }
 
         &--favorites {
-            background-image: url('../img/icon-love.svg');
+            background-image: url('../img/icon-favorite.svg');
             background-position: center center;
             background-size: cover;
         }
