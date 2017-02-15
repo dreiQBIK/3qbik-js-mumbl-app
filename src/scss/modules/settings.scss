@@ -79,10 +79,6 @@ STYLESHEET: SETTINGS
             font-weight: 700;
             color: $c-white;
         }
-
-        &:checked+.settings__label:before {
-            opacity: 0.3;
-        }
     }
 
     &__label {
@@ -99,6 +95,7 @@ STYLESHEET: SETTINGS
             left: -1.7em;
             background-color: $c-white;
             border-radius: 2px;
+            opacity: 0.3;
         }
     }
 

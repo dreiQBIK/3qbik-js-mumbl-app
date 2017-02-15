@@ -11,7 +11,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.min.css">
         <!-- <link rel="stylesheet" href="css/style.min.css"> -->
     </head>
 
@@ -20,6 +20,8 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+        <div class="loading"><span class="loading__icon pulse"></span></div>
+
         <main class="content">
 
             <!-- Settings -->
@@ -27,7 +29,7 @@
                 <span class="btn__icon btn__icon--settings"></span>
             </a>
             <div class="settings-wrapper">
-                <form class="settings">
+                <form class="settings" data-btn="mumbl">
                     <h2 class="settings__heading">Einstellungen</h2>
                     <div class="settings__block settings__block--gender">
                         <h3 class="settings__sub-heading">Geschlecht filtern:</h3>

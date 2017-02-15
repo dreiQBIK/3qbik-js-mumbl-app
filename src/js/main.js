@@ -10,9 +10,9 @@ const colors = [
         "third": "#6ADCF5"
     },
     {
-        "main": "#6298D4",
-        "second": "#67A5EA",
-        "third": "#72B2F9"
+        "main": "#629BD4",
+        "second": "#67A8EA",
+        "third": "#73B6F9"
     },
     {
         "main": "#CB659A",
@@ -20,9 +20,9 @@ const colors = [
         "third": "#F66BB4"
     },
     {
-        "main": "#D7CC5C",
-        "second": "#ECDF59",
-        "third": "#F4E75B"
+        "main": "#D7C75C",
+        "second": "#ECD95A",
+        "third": "#F4E05B"
     },
     {
         "main": "#E29150",
@@ -75,12 +75,17 @@ function load() {
         // console.log((names.filter(el => el.gender === 'male')).length);
         // console.log((names.filter(el => el.gender === 'female')).length);
 
+        // hide loading spinner
+        const loadingSpinner = document.querySelector('.loading');
+        loadingSpinner.classList.add('hidden');
+
         // variable for filtered names array (when settings are saved, it gets altered)
         let filteredNames = names;
 
         // listen on submit button of settings
         const btnSubmit = document.querySelector('.settings');
         btnSubmit.addEventListener('submit', saveSettings);
+        btnSubmit.addEventListener('submit', animateCard);
 
         // mumbl name on load
         mumblName();
@@ -263,11 +268,15 @@ function load() {
 
         function showSettings() {
             const settingsWrapper = document.querySelector('.settings-wrapper');
+            const listWrapper = document.querySelector('.list-wrapper');
+            if (listWrapper.classList.contains('active') && window.innerWidth < 961) listWrapper.classList.remove('active');
             settingsWrapper.classList.toggle('active');
         }
 
         function showFavorites() {
+            const settingsWrapper = document.querySelector('.settings-wrapper');
             const listWrapper = document.querySelector('.list-wrapper');
+            if (settingsWrapper.classList.contains('active') && window.innerWidth < 961) settingsWrapper.classList.remove('active');
             listWrapper.classList.toggle('active');
         }
 
