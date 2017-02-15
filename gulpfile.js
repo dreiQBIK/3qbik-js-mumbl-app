@@ -61,6 +61,22 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest('dist/js'));
 });
 
+// Concatenate & Minify JS
+gulp.task('scripts-error', function() {
+    return gulp
+        .src('src/js/error/*.js')
+        .pipe(concat('error.js'))
+        .pipe(babel({
+            presets: ['es2015']
+        }))
+        .pipe(gulp.dest('dist/js'))
+        .pipe(rename('error.min.js'))
+        .pipe(plumber(errorHandler))
+        .pipe(uglify())
+        .pipe(plumber.stop())
+        .pipe(gulp.dest('dist/js'));
+});
+
 // Compile Sass
 gulp.task('sass', function() {
     return gulp
