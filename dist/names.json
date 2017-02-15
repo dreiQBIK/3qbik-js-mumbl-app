@@ -468,6 +468,18 @@
         "loved": false
     },
     {
+        "name": "Sören",
+        "gender": "male",
+        "shown": false,
+        "loved": false
+    },
+    {
+        "name": "Oliver",
+        "gender": "male",
+        "shown": false,
+        "loved": false
+    },
+    {
         "name": "Michelle",
         "gender": "female",
         "shown": false,
@@ -841,7 +853,7 @@
     },
     {
         "name": "Holger",
-        "gender": "female",
+        "gender": "male",
         "shown": false,
         "loved": false
     },

@@ -65,11 +65,16 @@ STYLESHEET: SETTINGS
         left: 0;
 
         &:checked+.settings__label:after {
-            content: "\02713";
+            content: "";
             display: inline-block;
+            width: 15px;
+            height: 15px;
+            background-image: url('../img/icon-check.svg');
+            background-size: cover;
+            background-position: center center;
             position: absolute;
-            top: 0.05em;
-            left: -1.65em;
+            top: 0.15em;
+            left: -1.7em;
             font-size: 0.9rem;
             font-weight: 700;
             color: $c-white;

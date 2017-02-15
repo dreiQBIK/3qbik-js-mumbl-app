@@ -57,9 +57,29 @@ STYLESHEET: CARD
     &__logo {
         width: 100%;
         height: 100%;
-        background-image: url('../img/mumbl-logo.svg');
-        background-size: cover;
-        background-position: center center;
+        // background-image: url('../img/icon-mumbl-bear.svg');
+        // background-size: cover;
+        // background-position: center center;
+        // position: relative;
+
+        &.rotate-in {
+            animation: rotate-in 0.3s cubic-bezier(0, 1.11, 1, 1);
+        }
+
+        &.rotate-out {
+            animation: rotate-out 0.3s cubic-bezier(0, 1.11, 1, 1);
+        }
+
+        // &--mumbl {
+        //     width: 100%;
+        //     height: 100%;
+        //     background-image: url('../img/icon-mumbl-mouth.svg');
+        //     background-size: cover;
+        //     background-position: center center;
+        //     position: absolute;
+        //     bottom: 0;
+        //     right: 0;
+        // }
 
         &-wrapper {
             transition: all 0.2s;

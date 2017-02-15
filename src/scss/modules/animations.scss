@@ -15,15 +15,30 @@ STYLESHEET: ANIMATIONS
     }
 }
 
-@keyframes rotate {
+@keyframes rotate-out {
     0% {
-        transform: scale(1) rotate(0) translateX(0);
+        transform: scale(1) rotate(0);
     }
-    70% {
-        transform: scale(1.2) rotate(-15deg) translateX(-100px);
+    37% {
+        transform: scale(0.9) rotate(45deg);
+    }
+    67% {
+        transform: scale(0.9) rotate(-45deg);
     }
     100% {
-        transform: scale(1) rotate(0) translateX(0);
+        transform: scale(1) rotate(0);
+    }
+}
+
+@keyframes rotate-in {
+    0% {
+        transform: scale(1) rotate(0);
+    }
+    70% {
+        transform: scale(2) rotate(360deg);
+    }
+    100% {
+        transform: scale(6) rotate(-360);
     }
 }
 

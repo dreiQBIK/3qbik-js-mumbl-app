@@ -117,8 +117,9 @@ function load() {
         // get currentName
         let currentName = names[names.findIndex(el => el.shown)];
 
-        // new array for favorites
-        let favoriteNames = [];
+        // load and display previously saved favorites
+        let favoriteNames = JSON.parse(localStorage.getItem('favoriteNames')) || [];
+        loadFavorites();
 
 
 
@@ -191,20 +192,25 @@ function load() {
 
             // add animations
             const card = document.querySelector('.card');
+            const logo = document.querySelector('.card__logo');
             if (clickedBtn.getAttribute('data-btn') === 'mumbl') {
                 card.classList.add('discard');
+                logo.classList.add('rotate-out');
 
                 // remove animations
                 setTimeout(function(){
                     card.classList.remove('discard');
+                    logo.classList.remove('rotate-out');
                 }, 300);
 
             } else if (clickedBtn.getAttribute('data-btn') === 'love') {
                 card.classList.add('flip');
+                logo.classList.add('rotate-in');
 
                 // remove animations
                 setTimeout(function(){
                     card.classList.remove('flip');
+                    logo.classList.remove('rotate-in');
                 }, 300);
             }
         }
@@ -309,6 +315,32 @@ function load() {
             }
         }
 
+        function loadFavorites() {
+
+            // cycle through all favorite names
+            favoriteNames.forEach(function(el) {
+
+                // create and append list item
+                const newListItem = document.createElement('li');
+                const newListItemText = document.createTextNode(`${el.name}`);
+                newListItem.className = 'list__item';
+                newListItem.setAttribute('data-name', `${el.name}`);
+                newListItem.setAttribute('data-role', 'favorite');
+                newListItem.appendChild(newListItemText);
+                list.appendChild(newListItem);
+
+                // create and append gender icon
+                const newGenderIcon = document.createElement('span');
+                newGenderIcon.className = 'list__item__icon btn--delete';
+                newGenderIcon.style.backgroundImage = (el.gender === 'male') ? 'url(img/icon-male.svg)' : 'url(img/icon-female.svg)';
+                newListItem.appendChild(newGenderIcon);
+
+                // get rid of placeholder
+                const favoritesPlaceholder = document.querySelector('.list__item[data-role="placeholder"]');
+                if (!(favoritesPlaceholder.style.display === 'none')) favoritesPlaceholder.style.display = 'none';
+            });
+        }
+
         function loveName() {
 
             // check if name is not already marked as loved
@@ -319,6 +351,9 @@ function load() {
 
             // push to favorites array
             favoriteNames.push(currentName);
+
+            // save to local storage
+            localStorage.setItem('favoriteNames', JSON.stringify(favoriteNames));
 
             // save name to loved list
             list = document.querySelector('.list');
@@ -338,18 +373,14 @@ function load() {
             newGenderIcon.style.backgroundImage = (currentName.gender === 'male') ? 'url(img/icon-male.svg)' : 'url(img/icon-female.svg)';
             newListItem.appendChild(newGenderIcon);
 
-            // create and append gender icon
-            // const newShareIcon = document.createElement('span');
-            // newShareIcon.className = 'list__item__icon btn--share';
-            // newShareIcon.style.backgroundImage = 'url(img/icon-love.svg)';
-            // newListItem.appendChild(newShareIcon);
-
             // get rid of placeholder
             const favoritesPlaceholder = document.querySelector('.list__item[data-role="placeholder"]');
             if (!(favoritesPlaceholder.style.display === 'none')) favoritesPlaceholder.style.display = 'none';
 
             // mumbl next name
-            mumblName();
+            setTimeout(function(){
+                mumblName();
+            }, 300);
         }
 
         function deleteName(e) {
@@ -370,6 +401,9 @@ function load() {
 
             // remove from favorites array
             favoriteNames.pop(currentName);
+
+            // save to local storage
+            localStorage.setItem('favoriteNames', JSON.stringify(favoriteNames));
 
             // delete name from favorites list
             list = document.querySelector('.list');
