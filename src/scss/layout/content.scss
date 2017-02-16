@@ -5,12 +5,12 @@ STYLESHEET: CONTENT
 
 .content {
     width: 80%;
-    height: 100vh;
     margin: 0 auto;
     padding-top: 8em;
 
     @include medium {
         padding-top: 10em;
+        min-height: 100vh;
     }
 
     @include large {

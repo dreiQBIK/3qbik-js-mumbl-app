@@ -31,7 +31,10 @@ function errorHandler(error) {
 // Copy folders
 gulp.task('copy-folders', function() {
     return gulp
-        .src(['src/fonts/**/*'], {base: 'src/'})
+        .src([
+            'src/fonts/**/*',
+            'src/json/*'
+        ], {base: 'src/'})
         .pipe(gulp.dest('dist/'));
 });
 
