@@ -75,6 +75,11 @@ btnLove.addEventListener('click', loveName);
 btnLove.addEventListener('click', animateButton);
 btnLove.addEventListener('click', animateCard);
 
+// listen on click on info btn
+let btnInfo = document.querySelector('.btn--info');
+btnInfo.addEventListener('click', animateButton);
+btnInfo.addEventListener('click', flipCard);
+
 // show and hide settings nav
 let btnFavorites = document.querySelector('.btn--favorites');
 btnFavorites.addEventListener('click', showFavorites);
@@ -177,6 +182,7 @@ function changeColors() {
     const listItem = document.querySelectorAll('.list__item');
     btn = document.querySelector('.btn--mumbl');
     btnLove = document.querySelector('.btn--love');
+    btnInfo = document.querySelector('.btn--info');
     btnSettings = document.querySelector('.btn--settings');
     btnFavorites = document.querySelector('.btn--favorites');
     const btnSubmit = document.querySelector('.settings__submit');
@@ -193,6 +199,7 @@ function changeColors() {
     settingsWrapper.style.backgroundColor = randomColor.second;
     btn.style.backgroundColor = randomColor.second;
     btnLove.style.backgroundColor = randomColor.second;
+    btnInfo.style.backgroundColor = randomColor.second;
     btnSettings.style.backgroundColor = randomColor.second;
     btnFavorites.style.backgroundColor = randomColor.second;
     btnSubmit.style.backgroundColor = randomColor.third;
@@ -226,6 +233,20 @@ function animateCard(e) {
             logo.classList.remove('rotate-in');
         }, 300);
     }
+}
+
+function flipCard(e) {
+
+    // get btn
+    const clickedBtn = e.currentTarget;
+
+    // get meaning of current name and display it
+    const cardMeaning = document.querySelector('.card__meaning');
+    cardMeaning.innerHTML = currentName.meaning;
+
+    // add animations
+    const card = document.querySelector('.card');
+    card.classList.toggle('card-flip');
 }
 
 function animateButton(e) {
@@ -313,6 +334,10 @@ function mumblName() {
 
         // save current name
         currentName = randomName;
+
+        // flip card back to original position
+        const card = document.querySelector('.card');
+        if (card.classList.contains('card-flip')) card.classList.remove('card-flip');
 
     } else {
 

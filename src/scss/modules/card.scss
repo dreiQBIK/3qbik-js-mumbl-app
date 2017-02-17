@@ -9,9 +9,10 @@ STYLESHEET: CARD
     width: 17em;
     margin: 0 auto 2em;
     font-family: $f-heading;
-    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
+    // box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
     transition: all 0.2s;
     position: relative;
+    perspective: 1000px;
 
     @include medium {
         width: 18em;
@@ -23,7 +24,7 @@ STYLESHEET: CARD
     }
 
     &:hover {
-        box-shadow: 1px 1px 70px rgba(0, 0, 0, 0.2);
+        // box-shadow: 1px 1px 70px rgba(0, 0, 0, 0.2);
 
         &:before {
             box-shadow: 1px 1px 70px rgba(0, 0, 0, 0.2);
@@ -31,6 +32,7 @@ STYLESHEET: CARD
     }
 
     &:before {
+        transform: rotateY(0deg);
         content: "";
         display: inline-block;
         position: absolute;
@@ -48,17 +50,36 @@ STYLESHEET: CARD
         z-index: -1;
     }
 
-    &__inner {
-        padding: 2em 0;
-        border-radius: 5px;
-        transition: all 0.2s;
+    &.card-flip {
 
-        @include medium {
-            padding-bottom: 2.5em;
+        .card__inner {
+            transform: rotateY(-180deg);
         }
 
-        @include large {
-            padding-bottom: 3em;
+        &:before {
+            transform: rotateY(-180deg);
+        }
+    }
+
+    &__inner {
+        // padding: 2em 0;
+        border-radius: 5px;
+        transition: all 0.2s;
+        position: relative;
+        height: 400px;
+        box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
+        transform-style: preserve-3d;
+
+        // @include medium {
+        //     padding-bottom: 2.5em;
+        // }
+
+        // @include large {
+        //     padding-bottom: 3em;
+        // }
+
+        &:hover {
+            box-shadow: 1px 1px 70px rgba(0, 0, 0, 0.2);
         }
     }
 
@@ -88,19 +109,44 @@ STYLESHEET: CARD
         }
     }
 
+    &__info,
+    &__name {
+        backface-visibility: hidden;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 300px;
+    }
+
+    &__name {
+        transform: perspective(1000px) rotateY(0deg);
+        z-index: 2;
+    }
+
+    &__info {
+        padding: 0 30px;
+        transform: perspective(1000px) rotateY(180deg);
+        font-size: 1.4rem;
+        font-family: $f-base;
+        font-weight: 700;
+    }
+
     &__heading {
-        padding: 0.5em;
-        margin: 0.5em 0;
+        padding: 0 30px;
+        // margin: 0.5em 0;
+        margin: 0 0 1em;
         font-size: 2rem;
         font-weight: 400;
 
         @include medium {
-            margin: 0.7em 0;
+            // margin: 0.7em 0;
             font-size: 2.5rem;
         }
 
         @include large {
-            margin: 1em 0;
+            // margin: 1em 0;
             font-size: 3rem;
         }
     }
@@ -129,6 +175,33 @@ STYLESHEET: CARD
             transition: all 0.2s;
         }
     }
+
+    // &__info {
+    //     width: 27px;
+    //     height: 27px;
+    //     display: inline-block;
+    //     background-image: url('../img/icon-info.svg');
+    //     background-position: center center;
+    //     background-size: cover;
+
+    //     @include medium {
+    //         width: 33px;
+    //         height: 33px;
+    //     }
+
+    //     @include large {
+    //         width: 40px;
+    //         height: 40px;
+    //     }
+
+    //     &:before {
+    //         content: "";
+    //         display: inline-block;
+    //         width: 50px;
+    //         height: 50px;
+    //         background-color: $c-black;
+    //     }
+    // }
 
     @include medium {
 

@@ -3,1992 +3,2324 @@
         "name": "Anton",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "der Unschätzbare; der Wertvolle"
     },
     {
         "name": "Albert",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "vornehm glänzend, wunderbar"
     },
     {
         "name": "Anna",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "die Begnadete, die Anmutige"
     },
     {
         "name": "Amelie",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "die Tüchtige, die Fleißige, die Tapfere"
     },
     {
         "name": "Leon",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "der Löwe"
     },
     {
         "name": "Alina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "die Edle, die Vornehme, die Erhabene, griech. die Leuchtende"
     },
     {
         "name": "Alexander",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Antonia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Andreas",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Andrea",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Annika",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Amalia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Aaron",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Liam",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Levi",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Joscha",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Moritz",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Lennart",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Elena",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Judith",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Elia",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Elias",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Tim",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Jonas",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Michael",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Julian",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Joshua",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Marcel",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Nicolas",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Patrick",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Stefan",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Philipp",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "John",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Daniel",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "David",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Thomas",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Simon",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Sebastian",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Felix",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Oskar",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Robert",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Maximilian",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Raphael",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Benjamin",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Markus",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Lukas",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Johannes",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Jan",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Valentin",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Manuel",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Emanuel",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Paul",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Emil",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Lars",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Adrian",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Laura",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Lena",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Sandra",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Jana",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Sandra",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Lara",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Jessica",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Julia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Mia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Pia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Melanie",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Charlotte",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Sabrina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Jasmin",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Emilia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Lea",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Sarah",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Valentina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Sophie",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Selina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Emily",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Johanna",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Melina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Sören",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Oliver",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Michelle",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Nina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Kathleen",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Anne",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Katrin",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Maria",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Dennis",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Ina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Luisa",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Jürgen",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Jochen",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Lisa",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Anna",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Rosa",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Peter",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Elisa",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Tanja",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Herbert",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Emma",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Clemens",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Michel",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Frieder",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Henning",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Jakob",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Carsten",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Friederike",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Josef",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Carina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Alisa",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Isabella",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Esther",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Lilli",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Frieda",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Erika",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Patrizia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Gabriel",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Samuel",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Hannes",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Nils",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Janina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Christian",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Vanessa",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Immanuel",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Alisja",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Martin",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Verena",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Lydia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Hanna",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Franziska",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Marie",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Jennifer",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Monika",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Corinna",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Ariane",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Melissa",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Katja",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Mona",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Joris",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Alexa",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Isabell",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Rosie",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Holger",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Amanda",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Julius",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Thorsten",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Vincent",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Finn",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Christoph",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Timothy",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Kilian",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Georg",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Arthur",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Helena",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Theresa",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Dorothea",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Rebekka",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Linda",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Niklas",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Lasse",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Tommy",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Johann",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Klaas",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Frederik",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Björn",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Heiner",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Gerhard",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Henry",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Josefin",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Annie",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Marta",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Yvonne",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Helene",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Heidi",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Elisabeth",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Greta",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Clara",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Barbara",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Richard",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Janne",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Edgar",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Paula",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Sophia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Olivia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Mia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Martina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Chiara",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Amelia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Leonie",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Lina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Lucia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Louis",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Ben",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Noah",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Luca",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Lias",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Karl",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Otto",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Armin",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Arne",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Bjarne",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Benedikt",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Bruno",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Christopher",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Dominik",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Emilian",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Erik",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Etienne",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Ephraim",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Florian",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Friedrich",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Falco",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Fabian",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Gunnar",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Hauke",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Helge",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Heiko",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Henrik",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Hans",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Hanno",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Hermann",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Ian",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Jens",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Joel",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Jannis",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Jonah",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Jonathan",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Jaron",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Jona",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Justus",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Konstantin",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Kurt",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Konrad",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Korbinian",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Linus",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Lorenz",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Mats",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Malte",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Matthias",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Marvin",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Marco",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Marius",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Magnus",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Nick",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Noel",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Nathanael",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Nathan",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Ole",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Peer",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Pascal",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Pius",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Patrice",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Robin",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Romeo",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Rene",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Sven",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Sascha",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Tom",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Timon",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Theodor",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Viktor",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Amy",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Jannik",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Alice",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Anja",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Aileen",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Alena",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Bella",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Bianca",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Stefanie",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Bea",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Brigitte",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Bettina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Celina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Caroline",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Christiane",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Cecilia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Carlotta",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Carmen",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Carolina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Daniela",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Denise",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Dörte",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Desiree",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Dina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Daria",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Dalia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Damaris",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Eva",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Edda",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Edith",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Eveline",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Eliana",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Fee",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Flora",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Florentina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Gesine",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Gabriela",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Gloria",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Hilda",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Hannelore",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Hermine",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Helen",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Inga",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Irina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Joana",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Josephine",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Juliana",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Katharina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Karin",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Kira",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Kristin",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Lana",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Mira",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Maya",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Madita",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Natalie",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Paulina",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Rachel",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Raphaela",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Ricarda",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Sylvia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Sabine",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Saskia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Tamara",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Theresia",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Valerie",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Victoria",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Violetta",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Viola",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Wanda",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Wiebke",
         "gender": "female",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     },
     {
         "name": "Hinnerk",
         "gender": "male",
         "shown": false,
-        "loved": false
+        "loved": false,
+        "meaning": "Murmler"
     }
 ]

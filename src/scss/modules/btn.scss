@@ -79,6 +79,13 @@ STYLESHEET: BTN
         }
     }
 
+    &--info {
+        display: block;
+        margin: 0 auto;
+        width: 50px;
+        height: 50px;
+    }
+
     &__icon {
         width: 60%;
         height: 60%;
@@ -89,36 +96,34 @@ STYLESHEET: BTN
         bottom: 0;
         color: $c-white;
         text-align: center;
+        background-position: center center;
+        background-size: cover;
 
         &--love {
             background-image: url('../img/icon-love.svg');
-            background-position: center center;
-            background-size: cover;
         }
 
         &--x {
             background-image: url('../img/icon-x.svg');
-            background-position: center center;
-            background-size: cover;
         }
 
         &--favorites {
             background-image: url('../img/icon-favorite.svg');
-            background-position: center center;
-            background-size: cover;
         }
 
         &--settings {
             background-image: url('../img/icon-settings.svg');
-            background-position: center center;
-            background-size: cover;
+        }
+
+        &--info {
+            background-image: url('../img/icon-info.svg');
         }
     }
 
     @include medium {
 
         &.press {
-            animation: press 0.3s cubic-bezier(0, 1.11, 1, 1);
+            animation: press 0.2s cubic-bezier(0, 1.11, 1, 1);
         }
     }
 }
