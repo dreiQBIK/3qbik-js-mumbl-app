@@ -177,6 +177,7 @@ function changeColors() {
     const cardInner = document.querySelector('.card__inner');
     const cardLogoWrapper = document.querySelector('.card__logo-wrapper');
     const cardIconWrapper = document.querySelector('.card__icon-wrapper');
+    const cardOriginWrapper = document.querySelector('.card__origin-wrapper');
     const listWrapper = document.querySelector('.list-wrapper');
     const settingsWrapper = document.querySelector('.settings-wrapper');
     const listItem = document.querySelectorAll('.list__item');
@@ -195,6 +196,7 @@ function changeColors() {
     cardInner.style.backgroundColor = randomColor.second;
     cardLogoWrapper.style.backgroundColor = randomColor.second;
     cardIconWrapper.style.backgroundColor = randomColor.third;
+    cardOriginWrapper.style.backgroundColor = randomColor.third;
     listWrapper.style.backgroundColor = randomColor.second;
     settingsWrapper.style.backgroundColor = randomColor.second;
     btn.style.backgroundColor = randomColor.second;
@@ -243,6 +245,10 @@ function flipCard(e) {
     // get meaning of current name and display it
     const cardMeaning = document.querySelector('.card__meaning');
     cardMeaning.innerHTML = currentName.meaning;
+
+    // get origin of current name and display it
+    const cardOrigin = document.querySelector('.card__origin');
+    cardOrigin.innerHTML = currentName.origin;
 
     // add animations
     const card = document.querySelector('.card');

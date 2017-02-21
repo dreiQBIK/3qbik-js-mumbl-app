@@ -38,7 +38,6 @@ gulp.task('copy-folders', function() {
         .pipe(gulp.dest('dist/'));
 });
 
-
 // Lint JS-Files
 gulp.task('lint', function() {
     return gulp

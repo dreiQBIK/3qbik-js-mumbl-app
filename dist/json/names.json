@@ -4,2323 +4,2639 @@
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "der Unschätzbare; der Wertvolle"
+        "meaning": "der Unschätzbare, der Wertvolle",
+        "origin": "Lateinisch"
     },
     {
         "name": "Albert",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "vornehm glänzend, wunderbar"
-    },
-    {
-        "name": "Anna",
-        "gender": "female",
-        "shown": false,
-        "loved": false,
-        "meaning": "die Begnadete, die Anmutige"
+        "meaning": "strahlender Edelmann",
+        "origin": "Althochdeutsch"
     },
     {
         "name": "Amelie",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "die Tüchtige, die Fleißige, die Tapfere"
+        "meaning": "die Tüchtige, die Fleißige, die Tapfere",
+        "origin": "Althochdeutsch"
     },
     {
         "name": "Leon",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "der Löwe"
+        "meaning": "der Löwe, der Löwenstarke",
+        "origin": "Lateinisch"
     },
     {
         "name": "Alina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "die Edle, die Vornehme, die Erhabene, griech. die Leuchtende"
+        "meaning": "die Edle, die Vornehme, die Erhabene, die Strahlende",
+        "origin": "Althochdeutsch"
     },
     {
         "name": "Alexander",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Beschützer, der Verteidiger",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Antonia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Unschätzbare",
+        "origin": "Lateinisch"
     },
     {
         "name": "Andreas",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Männliche, der Tapfere",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Andrea",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Tapfere, die Entschlossene, die Starke",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Annika",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Begnadete",
+        "origin": "Hebräisch"
     },
     {
         "name": "Amalia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Tüchtige, die Tapfere",
+        "origin": "Gotisch"
     },
     {
         "name": "Aaron",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Kämpfer, der Erleuchtete",
+        "origin": "Hebräisch"
     },
     {
         "name": "Liam",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der entschlossene Beschützer",
+        "origin": "Althochdeutsch"
     },
     {
         "name": "Levi",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Hebräisch",
+        "origin": "der Anhängliche, der Kämpfer, der Held"
     },
     {
         "name": "Joscha",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Gott fügt hinzu",
+        "origin": "Hebräisch"
     },
     {
         "name": "Moritz",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Schwarze, der Dunkle",
+        "origin": "Lateinisch"
     },
     {
         "name": "Lennart",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der starke Löwe",
+        "origin": "Althochdeutsch"
     },
     {
         "name": "Elena",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Leuchtende, Strahlende",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Judith",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Bekennende, die Gepriesene",
+        "origin": "Hebräisch"
     },
     {
         "name": "Elia",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Fremde",
+        "origin": "Hebräisch, Germanisch"
     },
     {
         "name": "Elias",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Auserwählte",
+        "origin": "Hebräisch"
     },
     {
         "name": "Tim",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Geehrte, Gottesfürchtige, Ehrenwürdige, Geschätzte",
+        "origin": "Althochdeutsch, Altgriechisch"
     },
     {
         "name": "Jonas",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Friedliebende",
+        "origin": "Hebräisch"
     },
     {
         "name": "Michael",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "wer ist wie Gott?",
+        "origin": "Hebräisch"
     },
     {
         "name": "Julian",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "dem Jupiter geweiht",
+        "origin": "Lateinisch"
     },
     {
         "name": "Joshua",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Gott ist Hilfe/Heil/Rettung",
+        "origin": "Hebräisch"
     },
     {
         "name": "Marcel",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Kämpfer, Sohn des Mars",
+        "origin": "Lateinisch"
     },
     {
         "name": "Nicolas",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Sieg des Volkes, Held des Volkes",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Patrick",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Edle, der Adlige",
+        "origin": "Lateinisch"
     },
     {
         "name": "Stefan",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Gekrönte",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Philipp",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Pferdefreund",
+        "origin": "Altgriechisch"
     },
     {
         "name": "John",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Jahwe ist gnädig, Jahwe ist gütig",
+        "origin": "Hebräisch"
     },
     {
         "name": "Daniel",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "David",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "mächtiger Richter",
+        "origin": "Hebräisch"
     },
     {
         "name": "Thomas",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Zwilling",
+        "origin": "Aramäisch"
     },
     {
         "name": "Simon",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Erhörte, der Gehörte, der von Gott erhörte",
+        "origin": "Hebräisch"
     },
     {
         "name": "Sebastian",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Erhabene",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Felix",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Glückliche, der Erfolgreiche",
+        "origin": "Lateinisch"
     },
     {
         "name": "Oskar",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der, den Gott beschützt",
+        "origin": "Altnordisch"
     },
     {
         "name": "Robert",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Anmutige, Strahlende",
+        "origin": "Althochdeutsch"
     },
     {
         "name": "Maximilian",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Größte",
+        "origin": "Lateinisch"
     },
     {
         "name": "Raphael",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Gottes heilende Hand",
+        "origin": "Hebräisch"
     },
     {
         "name": "Benjamin",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Sohn des Südens, Sohn des Glücks, Sohn der Freude",
+        "origin": "Hebräisch"
     },
     {
         "name": "Markus",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "dem Mars (dem römischen Kriegsgott) geweiht",
+        "origin": "Lateinisch"
     },
     {
         "name": "Lukas",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "ins Licht hineingeboren, der Helle",
+        "origin": "Lateinisch"
     },
     {
         "name": "Johannes",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Gott ist gnädig, Gott ist gütig",
+        "origin": "Hebräisch"
     },
     {
         "name": "Jan",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Jahwe ist gnädig, Jahwe ist gütig",
+        "origin": "Hebräisch"
     },
     {
         "name": "Valentin",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Kräftige, der Starke",
+        "origin": "Lateinisch"
     },
     {
         "name": "Manuel",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Gott sei mit uns",
+        "origin": "Hebräisch"
     },
     {
         "name": "Emanuel",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Gott sei mit uns",
+        "origin": "Hebräisch"
     },
     {
         "name": "Paul",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Kleine, der Jüngere",
+        "origin": "Lateinisch"
     },
     {
         "name": "Emil",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Nachahmer, der Wetteifernde, der Eifrige",
+        "origin": "Lateinisch"
     },
     {
         "name": "Lars",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Sieger, der Lorbeergeschmückte",
+        "origin": "Lateinisch"
     },
     {
         "name": "Adrian",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der aus (H)adria Stammende",
+        "origin": "Lateinisch"
     },
     {
         "name": "Laura",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Lorbeerbekränzte, die Siegerin",
+        "origin": "Lateinisch"
     },
     {
         "name": "Lena",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Strahlende, die Schöne, die aus Magdala stammende",
+        "origin": "Altgriechisch, Hebräisch"
     },
     {
         "name": "Sandra",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Schützerin, Helferin, Verteidigerin",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Jana",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
-    },
-    {
-        "name": "Sandra",
-        "gender": "female",
-        "shown": false,
-        "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Gottbegnadete, Gott ist gnädig",
+        "origin": "Hebräisch"
     },
     {
         "name": "Lara",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Unerreichbare, die Siegerin, die Gesprächige",
+        "origin": "Lateinisch"
     },
     {
         "name": "Jessica",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Gott spürt dich, Gott sieht dich",
+        "origin": "Hebräisch"
     },
     {
         "name": "Julia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "aus dem Geschlecht der Julier stammend, dem Jupiter geweiht",
+        "origin": "Lateinisch"
     },
     {
         "name": "Mia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der kleine Stern, die Widerspenstige; die Ungezähmte, das gewünschte Kind",
+        "origin": "Hebräisch"
     },
     {
         "name": "Pia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Pflichtbewusste, die Tugendhafte, die Gläubige",
+        "origin": "Lateinisch"
     },
     {
         "name": "Melanie",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Dunkle, die Dunkelhaarige, die in Schwarz Gekleidete",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Charlotte",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Freie, die kleine Tüchtige",
+        "origin": "Althochdeutsch"
     },
     {
         "name": "Sabrina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Flussgöttin, die gelbe Blume, die Geduldige",
+        "origin": "Keltisch"
     },
     {
         "name": "Jasmin",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Blume, die Duftende, Schönheit, Reinheit und Ordnung",
+        "origin": "Altpersisch"
     },
     {
         "name": "Emilia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Nachahmerin, die Ehrgeizige, Eifrige",
+        "origin": "Lateinisch"
     },
     {
         "name": "Lea",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die sich vergeblich Mühende, die Ermüdete, die Löwin",
+        "origin": "Hebräisch"
     },
     {
         "name": "Sarah",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Fürstin, die Adelige, Herrin des Himmels, die Prinzessin",
+        "origin": "Hebräisch"
     },
     {
         "name": "Valentina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Kräftige, die Starke",
+        "origin": "Lateinisch"
     },
     {
         "name": "Sophie",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Weise",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Selina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Himmlische",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Emily",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Nachahmende, die Eifrige, die Sanfte, die Milde",
+        "origin": "Lateinisch"
     },
     {
         "name": "Johanna",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Jahwe ist gnädig, Jahwe ist gütig",
+        "origin": "Hebräisch"
     },
     {
         "name": "Melina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Tapfere, die Tüchtige",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Sören",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Ernsthafte, der Strenge",
+        "origin": "Lateinisch"
     },
     {
         "name": "Oliver",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Ölbaumpflanzer, Verbreiter der Hoffnung",
+        "origin": "Althochdeutsch"
     },
     {
         "name": "Michelle",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Wer ist wie Gott?",
+        "origin": "Hebräisch"
     },
     {
         "name": "Nina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Anmutige, die Göttliche, die Schöne",
+        "origin": "Italienisch"
     },
     {
         "name": "Kathleen",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Unschuldige",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Anne",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Begnadete, die Liebreizende, die Anmutige",
+        "origin": "Hebräisch"
     },
     {
         "name": "Katrin",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Reine, die Aufrichtige",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Maria",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Fruchtbare, die Betrübte, die von Gott Geliebte, die Unzähmbare",
+        "origin": "Hebräisch, Ägyptisch, Aramäisch"
     },
     {
         "name": "Dennis",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der dem Dionysos Geweihte",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Ina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Königin, die Reine, die Aufrichtige",
+        "origin": "Deutsch"
     },
     {
         "name": "Luisa",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "berühmte Kämpferin",
+        "origin": "Althochdeutsch"
     },
     {
         "name": "Jürgen",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Landarbeiter, der Bauer",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Jochen",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Jahwe richtet auf",
+        "origin": "Hebräisch"
     },
     {
         "name": "Lisa",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Mein Gott ist Fülle, Mein Gott hat geschworen",
+        "origin": "Hebräisch"
     },
     {
         "name": "Anna",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Begnadete, die Anmutige",
+        "origin": "Hebräisch"
     },
     {
         "name": "Rosa",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Rose",
+        "origin": "Lateinisch"
     },
     {
         "name": "Peter",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Felsen, der Stein",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Elisa",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Mein Gott ist Fülle, Mein Gott hat geschworen",
+        "origin": "Hebräisch"
     },
     {
         "name": "Tanja",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Beherzte, die Kämpferische",
+        "origin": "Lateinisch"
     },
     {
         "name": "Herbert",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "strahlender Krieger, der Mutige, der Tapfere",
+        "origin": "Althochdeutsch"
     },
     {
         "name": "Emma",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Gewaltige, die Große, die Wunderbare",
+        "origin": "Germanisch"
     },
     {
         "name": "Clemens",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Gnädige, der Milde, der Sanfte",
+        "origin": "Lateinisch"
     },
     {
         "name": "Michel",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Anführer, der Mächtige",
+        "origin": "Hebräisch"
     },
     {
         "name": "Frieder",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Reiche , der Mächtige, der Friedselige, der Beschützer",
+        "origin": "Althochdeutsch"
     },
     {
         "name": "Henning",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der reiche, mächtige Herrscher, Gott ist gnädig",
+        "origin": "Althochdeutsch"
     },
     {
         "name": "Jakob",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Jahwe möge schützen, listiger Beschützer",
+        "origin": "Hebräisch"
     },
     {
         "name": "Carsten",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Anhänger Christi, Christ",
+        "origin": "Lateinisch"
     },
     {
         "name": "Friederike",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "mächtige Beschützerin, die Regierende, die Friedensreiche",
+        "origin": "Althochdeutsch"
     },
     {
         "name": "Josef",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Gott fügt hinzu",
+        "origin": "Hebräisch"
     },
     {
         "name": "Carina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Hübsche, die Liebe",
+        "origin": "Italienisch"
     },
     {
         "name": "Alisa",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "von edlem Wesen",
+        "origin": "Althochdeutsch"
     },
     {
         "name": "Isabella",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Göttliche, die Wunderbare, die ewig Schöne",
+        "origin": "Hebräisch"
     },
     {
         "name": "Esther",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Leuchtende, die Strahlende, Sternträgerin",
+        "origin": "Altpersisch"
     },
     {
         "name": "Lilli",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Mein Gott hat geschworen, die Lilie",
+        "origin": "Hebräisch"
     },
     {
         "name": "Frieda",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Friedliche",
+        "origin": "Deutsch"
     },
     {
         "name": "Erika",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die allein Herrschende, die Ehrenreiche",
+        "origin": "Altnordisch, Altgriechisch"
     },
     {
         "name": "Patrizia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Vornehme, die Adelige, die Edle",
+        "origin": "Lateinisch"
     },
     {
         "name": "Gabriel",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Mann Gottes",
+        "origin": "Hebräisch"
     },
     {
         "name": "Samuel",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der von Gott Erbetene, von Gott erhört",
+        "origin": "Hebräisch"
     },
     {
         "name": "Hannes",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Jahwe ist gnädig, Jahwe ist gütig",
+        "origin": "Hebräisch"
     },
     {
         "name": "Nils",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Sieg des Volkes",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Janina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Jahwe ist gnädig, Jahwe ist gütig",
+        "origin": "Hebräisch"
     },
     {
         "name": "Christian",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Anhänger Christi, Christ",
+        "origin": "Lateinisch"
     },
     {
         "name": "Vanessa",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Schmetterling",
+        "origin": "Englisch"
     },
     {
         "name": "Immanuel",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Gott sei mit uns",
+        "origin": "Hebräisch"
     },
     {
         "name": "Alisja",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Vornehme, die Edle, die Adelige",
+        "origin": "Altgriechisch, Althochdeutsch"
     },
     {
         "name": "Martin",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "der Kriegerische, Sohn des Krieges",
+        "origin": "Lateinisch"
     },
     {
         "name": "Verena",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Wahre, die Stolze, die Siegreiche",
+        "origin": "Deutschland"
     },
     {
         "name": "Lydia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Kämpferin",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Hanna",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Anmutige, die Liebreizende",
+        "origin": "Hebräisch"
     },
     {
         "name": "Franziska",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die kleine Französin, die Freie",
+        "origin": "Italienisch"
     },
     {
         "name": "Marie",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Geliebte",
+        "origin": "Hebräisch"
     },
     {
         "name": "Jennifer",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Blonde, die Leuchtende",
+        "origin": "Walisisch"
     },
     {
         "name": "Monika",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Einzige, die Einzigartige, die Einsame",
+        "origin": "Lateinisch"
     },
     {
         "name": "Corinna",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "das Mädchen, die Jungfrau",
+        "origin": "Altgriechisch"
     },
     {
         "name": "Ariane",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "die Reine, Keusche, Unbefleckte, Heilige, Sonne",
+        "origin": "Lateinisch"
     },
     {
         "name": "Melissa",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Katja",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Mona",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Joris",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Alexa",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Isabell",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Rosie",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Holger",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Amanda",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Julius",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Thorsten",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Vincent",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Finn",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Christoph",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Timothy",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Kilian",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Georg",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Arthur",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Helena",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Theresa",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Dorothea",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Rebekka",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Linda",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Niklas",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Lasse",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Tommy",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Johann",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Klaas",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Frederik",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Björn",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Heiner",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Gerhard",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Henry",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Josefin",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Annie",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Marta",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Yvonne",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Helene",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Heidi",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Elisabeth",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Greta",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Clara",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Barbara",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Richard",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Janne",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Edgar",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Paula",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Sophia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Olivia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Mia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Martina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Chiara",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Amelia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Leonie",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Lina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Lucia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Louis",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Ben",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Noah",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Luca",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Lias",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Karl",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Otto",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Armin",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Arne",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Bjarne",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Benedikt",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Bruno",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Christopher",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Dominik",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Emilian",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Erik",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Etienne",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Ephraim",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Florian",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Friedrich",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Falco",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Fabian",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Gunnar",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Hauke",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Helge",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Heiko",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Henrik",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Hans",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Hanno",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Hermann",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Ian",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Jens",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Joel",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Jannis",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Jonah",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Jonathan",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Jaron",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Jona",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Justus",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Konstantin",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Kurt",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Konrad",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Korbinian",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Linus",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Lorenz",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Mats",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Malte",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Matthias",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Marvin",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Marco",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Marius",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Magnus",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Nick",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Noel",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Nathanael",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Nathan",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Ole",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Peer",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Pascal",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Pius",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Patrice",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Robin",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Romeo",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Rene",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Sven",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Sascha",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Tom",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Timon",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Theodor",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Viktor",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Amy",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Jannik",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Alice",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Anja",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Aileen",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Alena",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Bella",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Bianca",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Stefanie",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Bea",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Brigitte",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Bettina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Celina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Caroline",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Christiane",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Cecilia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Carlotta",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Carmen",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Carolina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Daniela",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Denise",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Dörte",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Desiree",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Dina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Daria",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Dalia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Damaris",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Eva",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Edda",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Edith",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Eveline",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Eliana",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Fee",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Flora",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Florentina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Gesine",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Gabriela",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Gloria",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Hilda",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Hannelore",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Hermine",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Helen",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Inga",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Irina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Joana",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Josephine",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Juliana",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Katharina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Karin",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Kira",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Kristin",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Lana",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Mira",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Maya",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Madita",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Natalie",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Paulina",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Rachel",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Raphaela",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Ricarda",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Sylvia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Sabine",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Saskia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Tamara",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Theresia",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Valerie",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Victoria",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Violetta",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Viola",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Wanda",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Wiebke",
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     },
     {
         "name": "Hinnerk",
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler"
+        "meaning": "Murmler",
+        "origin": "Deutschland"
     }
 ]
