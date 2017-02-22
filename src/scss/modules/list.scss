@@ -27,7 +27,7 @@ STYLESHEET: LIST
         box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
         transition: all 0.2s;
         transform: translateX(150%);
-        z-index: 15;
+        z-index: 25;
 
         @include small {
             top: 11em;
@@ -64,6 +64,7 @@ STYLESHEET: LIST
         padding: 0.7em 1.8em 0.7em 0;
         position: relative;
         transition: all 0.2s;
+        cursor: pointer;
 
         &[data-role="favorite"]:hover {
 

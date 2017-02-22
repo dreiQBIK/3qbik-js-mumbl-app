@@ -94,8 +94,10 @@ btnFavorites.addEventListener('click', animateButton);
 
 // listen on click on delete favorite name btn
 let list = document.querySelector('.list');
-let btnDelete = document.querySelector('.btn--delete');
 list.addEventListener('click', deleteName);
+
+// listen on click on favorite name
+list.addEventListener('click', showFavoriteName);
 
 // save names from json file into names array
 loadJSON("json/names.json", function(response) {
@@ -238,9 +240,6 @@ function animateCard(e) {
 }
 
 function flipCard(e) {
-
-    // get btn
-    const clickedBtn = e.currentTarget;
 
     // get meaning of current name and display it
     const cardMeaning = document.querySelector('.card__meaning');
@@ -439,7 +438,6 @@ function deleteName(e) {
     const clickedElement = e.target;
 
     // leave if the target is not a name (e.g. no names have been added to the favorites list yet)
-    // if (!clickedElement.matches('.btn--delete')) return;
     if (clickedElement.getAttribute('data-btn') !== 'delete') return;
 
     // find out which name was clicked
@@ -471,4 +469,53 @@ function deleteName(e) {
             favoritesPlaceholder.style.display = 'block';
         }
     }, 300);
+}
+
+function showFavoriteName(e) {
+
+    // get the clicked element
+    const clickedElement = e.target;
+
+    // leave if the target is not a name (e.g. no names have been added to the favorites list yet) or the delete btn
+    if (clickedElement.getAttribute('data-role') !== 'favorite') return;
+
+    // find out which name was clicked
+    const clickedElementName = clickedElement.getAttribute('data-name');
+    const clickedName = names.filter(el => el.name === clickedElementName);
+    // const clickedNameIndex = favoriteNames.findIndex(el => el.name === clickedName[0].name);
+
+    // change HTML of name
+    const cardName = document.querySelector('.card__heading');
+    cardName.innerHTML = clickedName[0].name;
+
+    // change HTML of gender icon
+    const cardIcon = document.querySelector('.card__icon');
+    cardIcon.style.backgroundImage = (clickedName[0].gender === 'male') ? 'url(img/icon-male.svg)' : 'url(img/icon-female.svg)';
+
+    // get meaning of current name and display it
+    const cardMeaning = document.querySelector('.card__meaning');
+    cardMeaning.innerHTML = clickedName[0].meaning;
+
+    // get origin of current name and display it
+    const cardOrigin = document.querySelector('.card__origin');
+    cardOrigin.innerHTML = clickedName[0].origin;
+
+    // change colors and add animation
+    changeColors();
+
+    // save current name
+    currentName = clickedName[0];
+
+    // add animations
+    const card = document.querySelector('.card');
+    const logo = document.querySelector('.card__logo');
+    card.classList.add('discard');
+
+    // remove animations
+    setTimeout(function(){
+        card.classList.remove('discard');
+    }, 300);
+
+    // flip card back to original position
+    if (card.classList.contains('card-flip')) card.classList.remove('card-flip');
 }

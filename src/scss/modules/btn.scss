@@ -43,13 +43,29 @@ STYLESHEET: BTN
         text-align: center;
     }
 
+    &--mumbl {
+        transform: translate(-1em, -2em);
+
+        @include medium {
+            transform: translate(0, 0);
+        }
+    }
+
+    &--love {
+        transform: translate(1em, -2em);
+
+        @include medium {
+            transform: translate(0, 0);
+        }
+    }
+
     &--favorites {
         position: absolute;
         top: 1em;
         right: 0.5em;
         box-shadow: none;
         box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
-        z-index: 20;
+        z-index: 30;
 
         @include medium {
             top: 2em;
@@ -67,7 +83,7 @@ STYLESHEET: BTN
         left: 0.5em;
         box-shadow: none;
         box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
-        z-index: 20;
+        z-index: 30;
 
         @include medium {
             top: 2em;
@@ -82,8 +98,13 @@ STYLESHEET: BTN
     &--info {
         display: block;
         margin: 0 auto;
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
+
+        @include medium {
+            width: 50px;
+            height: 50px;
+        }
     }
 
     &__icon {
