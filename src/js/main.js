@@ -506,6 +506,8 @@ function showFavoriteName(e) {
     // save current name
     currentName = clickedName[0];
 
+    if (clickedName[0].loved === false) clickedName[0].loved = true;
+
     // add animations
     const card = document.querySelector('.card');
     const logo = document.querySelector('.card__logo');
