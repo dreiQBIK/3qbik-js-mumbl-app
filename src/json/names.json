@@ -108,8 +108,8 @@
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Hebräisch",
-        "origin": "der Anhängliche, der Kämpfer, der Held"
+        "meaning": "der Anhängliche, der Kämpfer, der Held",
+        "origin": "Hebräisch"
     },
     {
         "name": "Joscha",
@@ -260,8 +260,8 @@
         "gender": "male",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler",
-        "origin": "Deutschland"
+        "meaning": "mächtiger Richter",
+        "origin": "Hebräisch"
     },
     {
         "name": "David",
@@ -2284,8 +2284,8 @@
         "gender": "female",
         "shown": false,
         "loved": false,
-        "meaning": "Murmler",
-        "origin": "Deutschland"
+        "meaning": "die für ihr Glück Kämpfende, die Besitzhütende",
+        "origin": "Altenglisch"
     },
     {
         "name": "Eveline",
