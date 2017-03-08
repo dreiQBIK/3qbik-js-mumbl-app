@@ -81,6 +81,8 @@ const colors = [
     let btnInfo = document.querySelector('.btn--info');
     btnInfo.addEventListener('click', animateButton);
     btnInfo.addEventListener('click', flipCard);
+    let cardInfo = document.querySelector('.card');
+    cardInfo.addEventListener('click', flipCard);
 
     // show and hide settings nav
     let btnFavorites = document.querySelector('.btn--favorites');
@@ -522,6 +524,10 @@ const colors = [
 
         // flip card back to original position
         if (card.classList.contains('card-flip')) card.classList.remove('card-flip');
+
+        // close favorite names list on mobile
+        const listWrapper = document.querySelector('.list-wrapper');
+        if (listWrapper.classList.contains('active') && window.innerWidth < 961) listWrapper.classList.remove('active');
     }
 
 }());
