@@ -83,7 +83,7 @@ STYLESHEET: BTN
         left: 0.5em;
         box-shadow: none;
         box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
-        z-index: 30;
+        z-index: 50;
 
         @include medium {
             top: 2em;
